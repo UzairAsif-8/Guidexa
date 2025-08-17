@@ -62,7 +62,7 @@ npm start
 
 4. **Open your browser at \***
 
--[Link](http://localhost:3000)
+[Link](http://localhost:3000)
 
 _Note: Currently, Guidexa uses local JSON files to store data. In future versions, it will integrate with Firebase Firestore for dynamic data storage and real-time updates._
 
@@ -96,11 +96,12 @@ However, I humbly request that you do not copy this project exactly as it is wit
 ## 📬 Contact
 
 **Muhammad Uzair Asif**  
-Email: [Email Me](mailto:uzair.asif.dev@gmail.com)  
-Company Email: [Email Me](mailto:contact.axiolink@gmail.com)  
+Email: (mailto:uzair.asif.dev@gmail.com)  
+Company Email: (mailto:contact.axiolink@gmail.com)  
 GitHub: [https://github.com/UzairAsif-8](https://github.com/UzairAsif-8)
 
 ## Author
 
 **Muhammad Uzair Asif**
+<br/>
 **Built and Designed with ❤️ By Uzair Asif for Smarter Career Guidance**
