@@ -1,0 +1,2573 @@
+[
+  {
+    "domain": "Web Development",
+    "CardData": "Build websites and web apps from scratch. Learn HTML, CSS, JavaScript, and frameworks to bring your ideas online.",
+    "introduction": "Web development is the process of building and maintaining websites and web applications. It encompasses front-end (client-side) development for user interfaces, back-end (server-side) development for functionality and data management, and full-stack development combining both. In today's fast-paced digital world, web developers must master core technologies, best practices, and emerging tools to create responsive, secure, and scalable applications. This roadmap is designed for beginners to pros, emphasizing hands-on learning through projects to solidify concepts. Remember: Don't dive too deep into theory initially—learn by building real projects, starting small and iterating. This approach builds practical skills faster than passive study.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Start with the building blocks of the web. Focus on understanding how websites are structured, styled, and made interactive. Aim to build simple static websites as projects.",
+        "key_topics": [
+          {
+            "topic": "HTML5",
+            "details": "Semantic elements (e.g., , ), forms, multimedia embedding. Why important: Provides the structure and accessibility foundation for all web content. Pro tip: Use ARIA attributes for better accessibility to impress in professional audits."
+          },
+          {
+            "topic": "CSS3",
+            "details": "Selectors, box model, Flexbox, Grid, animations, responsive design with media queries. Why important: Controls layout and visuals; master responsive design for mobile-first approaches. Pro tip: Learn CSS variables and custom properties for maintainable stylesheets in large projects."
+          },
+          {
+            "topic": "JavaScript (ES6+)",
+            "details": "Variables, functions, arrays/objects, DOM manipulation, events, async/await, promises. Why important: Adds interactivity and logic. Pro tip: Understand closures and hoisting to avoid common pitfalls in complex apps."
+          }
+        ],
+        "projects": "Build a personal portfolio site, a responsive landing page, or a simple to-do list app.",
+        "tips": "Practice daily on platforms like freeCodeCamp or MDN Web Docs. Don't overthink—code and debug iteratively."
+      },
+      {
+        "stage": "Intermediate Level (Front-End Focus)",
+        "description": "Enhance user interfaces with frameworks and tools. Learn to create dynamic, single-page applications (SPAs). Integrate APIs and handle state management.",
+        "key_topics": [
+          {
+            "topic": "Front-End Frameworks/Libraries",
+            "details": "React.js (components, hooks, state management with Redux/Context API), Vue.js (directives, Vuex), or Angular (modules, services). Why important: Speeds up development for complex UIs. Pro tip: Master React's reconciliation process and virtual DOM for performance optimization in high-traffic apps."
+          },
+          {
+            "topic": "CSS Preprocessors & Frameworks",
+            "details": "SASS/SCSS for nested styles, Tailwind CSS or Bootstrap for rapid prototyping. Why important: Improves CSS efficiency and consistency. Pro tip: Use utility-first CSS like Tailwind to reduce bundle sizes in production."
+          },
+          {
+            "topic": "Version Control with Git",
+            "details": "Branching, merging, pull requests, GitHub workflows. Why important: Essential for collaboration. Pro tip: Learn Git rebase and cherry-pick for clean commit histories in team environments."
+          },
+          {
+            "topic": "APIs and Data Fetching",
+            "details": "RESTful APIs, GraphQL, Fetch API/Axios. Why important: Connects front-end to back-end data. Pro tip: Implement error handling and caching (e.g., with SWR) to enhance user experience."
+          }
+        ],
+        "projects": "Create a weather app using an API, a blog with CRUD operations, or an e-commerce dashboard.",
+        "tips": "Focus on component reusability. Build projects that solve real problems, like cloning popular sites (e.g., Twitter feed)."
+      },
+      {
+        "stage": "Intermediate Level (Back-End Focus)",
+        "description": "Build server-side logic, databases, and authentication. Understand how data flows from user to server and back.",
+        "key_topics": [
+          {
+            "topic": "Server-Side Languages & Frameworks",
+            "details": "Node.js with Express.js, Python with Django/Flask, or PHP with Laravel. Why important: Handles business logic and data. Pro tip: Use middleware in Express for logging and security to scale applications securely."
+          },
+          {
+            "topic": "Databases",
+            "details": "SQL (MySQL/PostgreSQL) for relational data, NoSQL (MongoDB) for flexible schemas. Why important: Stores and retrieves data efficiently. Pro tip: Optimize queries with indexes and learn ORM tools like Sequelize or Mongoose for productivity."
+          },
+          {
+            "topic": "Authentication & Security",
+            "details": "JWT, OAuth, sessions, HTTPS, input validation. Why important: Protects user data. Pro tip: Implement rate limiting and CSRF protection to prevent common vulnerabilities like those in OWASP Top 10."
+          },
+          {
+            "topic": "Server Management",
+            "details": "Environment variables, error handling, logging with Winston. Why important: Ensures reliability. Pro tip: Use containerization with Docker for consistent deployments."
+          }
+        ],
+        "projects": "Build a REST API for a task manager, a user authentication system, or a full blog backend.",
+        "tips": "Test endpoints with Postman. Learn by integrating front-end and back-end in full-stack projects."
+      },
+      {
+        "stage": "Advanced Level (Full-Stack & Optimization)",
+        "description": "Combine front and back-end, focus on performance, scalability, and modern practices. Tackle real-world challenges like deployment and maintenance.",
+        "key_topics": [
+          {
+            "topic": "Full-Stack Frameworks",
+            "details": "MERN/MEAN stack, Next.js (React with SSR), Nuxt.js (Vue). Why important: Enables end-to-end development. Pro tip: Leverage server-side rendering for SEO and initial load speed in e-commerce sites."
+          },
+          {
+            "topic": "DevOps & Deployment",
+            "details": "CI/CD with GitHub Actions/Jenkins, hosting on Vercel/Netlify/AWS/Heroku, Docker/Kubernetes. Why important: Automates workflows. Pro tip: Implement blue-green deployments for zero-downtime updates in production."
+          },
+          {
+            "topic": "Performance & Optimization",
+            "details": "Lazy loading, code splitting, caching strategies, Web Vitals (LCP, FID). Why important: Improves user experience. Pro tip: Use tools like Lighthouse for audits and optimize images with WebP format."
+          },
+          {
+            "topic": "Advanced Concepts",
+            "details": "Progressive Web Apps (PWAs), WebSockets for real-time (e.g., Socket.io), Microservices architecture, SEO best practices. Why important: For cutting-edge apps. Pro tip: Implement service workers for offline capabilities to make apps resilient."
+          },
+          {
+            "topic": "Testing & Quality Assurance",
+            "details": "Unit/integration testing (Jest, Mocha), end-to-end (Cypress), TDD/BDD. Why important: Ensures reliability. Pro tip: Achieve 80%+ code coverage and automate tests in CI pipelines."
+          }
+        ],
+        "projects": "Develop a real-time chat app, a scalable e-commerce platform, or a PWA portfolio with offline support.",
+        "tips": "Contribute to open-source on GitHub. Network on LinkedIn/Reddit. Always prioritize security and accessibility—pros notice these."
+      }
+    ],
+    "general_tips": [
+      "Learn by doing: Start with mini-projects after each topic, then scale to full apps. This reinforces concepts better than tutorials alone.",
+      "Stay updated: Follow trends via blogs like Smashing Magazine, Dev.to, or conferences like React Conf.",
+      "Tools & IDEs: Use VS Code with extensions (ESLint, Prettier), Chrome DevTools for debugging.",
+      "Soft skills: Communication, problem-solving—explain your code in interviews.",
+      "Career advice: Build a GitHub portfolio, freelance on Upwork, certify via Google/Udacity."
+    ],
+    "ai_tools": [
+      {
+        "name": "GitHub Copilot",
+        "description": "AI-powered code completion tool that suggests entire lines or functions based on context. Essential for speeding up coding and learning best practices.",
+        "benefits": "Boosts productivity by 30-50% in repetitive tasks; helps debug and refactor code.",
+        "image_link": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+      },
+      {
+        "name": "ChatGPT",
+        "description": "Versatile AI for generating code snippets, explaining concepts, brainstorming features, or debugging errors.",
+        "benefits": "Enhances learning for beginners and pros; integrates into workflows for quick prototypes.",
+        "image_link": "https://static.vecteezy.com/system/resources/previews/022/227/367/non_2x/openai-chatgpt-logo-icon-free-png.png"
+      },
+      {
+        "name": "Cursor AI",
+        "description": "AI-enhanced code editor that autocompletes, chats about code, and edits files intelligently.",
+        "benefits": "Streamlines development in VS Code-like environment; great for full-stack iterations.",
+        "image_link": "https://www.cursor.com/assets/cursor-logo.png"
+      },
+      {
+        "name": "CodeWhisperer (AWS)",
+        "description": "AI coding companion from Amazon that provides real-time suggestions and security scans.",
+        "benefits": "Detects vulnerabilities early; ideal for cloud-integrated web apps.",
+        "image_link": "https://d1.awsstatic.com/products/codewhisperer/MLCW_Hero_Image_03122024_V2.d5a4c4f7d8a5f0a5d4b0a5f0a5d4b0a5.png"
+      },
+      {
+        "name": "Tabnine",
+        "description": "AI code completion tool trained on millions of repositories, supporting multiple languages.",
+        "benefits": "Privacy-focused (local models available); accelerates front-end and back-end coding.",
+        "image_link": "https://www.tabnine.com/hs-fs/hubfs/Tabnine%20logo%20new.png"
+      },
+      {
+        "name": "Vercel v0",
+        "description": "AI tool for generating UI components and code from text prompts, integrated with Next.js.",
+        "benefits": "Rapid prototyping of React components; turns ideas into deployable code instantly.",
+        "image_link": "https://vercel.com/_next/image?url=%2Fblog%2Fv0.png&w=1920&q=75"
+      },
+      {
+        "name": "Adobe Firefly",
+        "description": "AI for generating images and assets, integrated with Photoshop for web design.",
+        "benefits": "Creates custom graphics, icons, and mockups; enhances design productivity.",
+        "image_link": "https://www.adobe.com/products/firefly/assets/images/firefly-logo.svg"
+      },
+      {
+        "name": "Figma AI (Magic Features)",
+        "description": "AI in Figma for auto-layout, design suggestions, and prototyping assistance.",
+        "benefits": "Speeds up UI/UX design for web apps; generates variants and themes.",
+        "image_link": "https://www.figma.com/blog/wp-content/uploads/2023/06/figma-ai-hero.png"
+      },
+      {
+        "name": "Applitools",
+        "description": "AI-powered visual testing tool for ensuring UI consistency across browsers/devices.",
+        "benefits": "Automates regression testing; catches visual bugs pros often miss.",
+        "image_link": "https://applitools.com/wp-content/uploads/2020/08/applitools-logo.png"
+      },
+      {
+        "name": "Jasper AI",
+        "description": "AI writing tool for generating web content, SEO-optimized copy, and meta descriptions.",
+        "benefits": "Improves content creation for blogs/sites; integrates with CMS like WordPress.",
+        "image_link": "https://www.jasper.ai/hubfs/Imported%20sitepage%20images/Logo%20-%20Color.svg"
+      }
+    ]
+  },
+  {
+    "domain": "Mobile App Development",
+    "CardData": "Create mobile apps for iOS and Android using Swift, Kotlin, and cross-platform frameworks.",
+    "introduction": "Mobile app development involves creating software applications for handheld devices like smartphones and tablets. It includes native development for specific platforms (iOS, Android) and cross-platform solutions for broader reach. With the rise of mobile-first strategies, developers must focus on user experience, performance, and security. This roadmap guides from beginner to advanced, stressing practical projects to build skills. Don't get lost in theory—start building simple apps early and iterate based on user feedback to gain real-world expertise.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Learn the basics of mobile platforms, programming languages, and UI design. Focus on building simple apps to understand the development lifecycle.",
+        "key_topics": [
+          {
+            "topic": "Programming Languages",
+            "details": "Java/Kotlin for Android, Swift/Objective-C for iOS. Why important: Core languages for native app development. Pro tip: Start with Kotlin for modern Android apps due to its concise syntax and safety features."
+          },
+          {
+            "topic": "UI/UX Basics",
+            "details": "Layouts, views, gestures, material design (Android), human interface guidelines (iOS). Why important: Ensures intuitive user interfaces. Pro tip: Use Figma or Sketch for wireframing to visualize designs before coding."
+          },
+          {
+            "topic": "Development Environments",
+            "details": "Android Studio for Android, Xcode for iOS. Why important: Integrated tools for coding, debugging, and testing. Pro tip: Learn emulator usage to test apps without physical devices initially."
+          }
+        ],
+        "projects": "Build a basic calculator app, a note-taking tool, or a simple weather viewer using public APIs.",
+        "tips": "Practice on free platforms like Codecademy or official docs. Focus on one platform (Android or iOS) first to avoid overload."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "Dive into frameworks, data handling, and app architecture. Learn to create feature-rich apps with offline capabilities and integrations.",
+        "key_topics": [
+          {
+            "topic": "Cross-Platform Frameworks",
+            "details": "React Native, Flutter, Xamarin. Why important: Allows code reuse across iOS and Android. Pro tip: Use Flutter for faster UI rendering with its widget-based system."
+          },
+          {
+            "topic": "Data Storage & APIs",
+            "details": "SQLite/Room for local data, Firebase/REST APIs for backend. Why important: Handles user data and connectivity. Pro tip: Implement caching with Retrofit (Android) for offline support."
+          },
+          {
+            "topic": "App Architecture",
+            "details": "MVC, MVVM, Clean Architecture. Why important: Promotes maintainable code. Pro tip: Adopt MVVM for better separation of concerns in complex apps."
+          },
+          {
+            "topic": "Testing & Debugging",
+            "details": "Unit testing (JUnit, XCTest), UI testing (Espresso, XCUITest). Why important: Ensures app reliability. Pro tip: Use tools like Appium for automated cross-platform testing."
+          }
+        ],
+        "projects": "Develop a social media feed app, a fitness tracker with local storage, or an e-commerce prototype.",
+        "tips": "Integrate third-party libraries via npm/CocoaPods. Test on real devices for accurate performance insights."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "Focus on optimization, security, and deployment. Tackle complex features like AR/ML integration and scalability.",
+        "key_topics": [
+          {
+            "topic": "Performance Optimization",
+            "details": "Memory management, battery efficiency, app size reduction. Why important: Improves user satisfaction. Pro tip: Use profiling tools in Android Studio/Xcode to identify bottlenecks."
+          },
+          {
+            "topic": "Security & Privacy",
+            "details": "Encryption, biometric auth, secure APIs. Why important: Protects user data. Pro tip: Follow OWASP mobile security guidelines to mitigate common threats."
+          },
+          {
+            "topic": "Advanced Features",
+            "details": "AR/VR integration (ARKit, ARCore), push notifications, ML models (Core ML, TensorFlow Lite). Why important: For cutting-edge apps. Pro tip: Leverage Firebase ML Kit for easy AI implementation."
+          },
+          {
+            "topic": "Deployment & DevOps",
+            "details": "App Store/Google Play submission, CI/CD with Fastlane/Jenkins. Why important: Streamlines releases. Pro tip: Implement A/B testing with Firebase to refine features post-launch."
+          }
+        ],
+        "projects": "Create a real-time chat app with notifications, an AR shopping experience, or a scalable social network.",
+        "tips": "Contribute to open-source mobile projects on GitHub. Stay updated with WWDC/Google I/O announcements."
+      }
+    ],
+    "general_tips": [
+      "Build projects incrementally: Start simple, add features as you learn to avoid overwhelm.",
+      "User feedback is key: Test apps with real users early to refine UX.",
+      "Tools: Use VS Code for cross-platform, emulators for quick testing.",
+      "Soft skills: Collaborate with designers; communicate tech to non-tech stakeholders.",
+      "Career: Build a portfolio on Behance, freelance on Upwork, certify with Google/Meta developer programs."
+    ],
+    "ai_tools": [
+      {
+        "name": "GitHub Copilot",
+        "description": "AI code assistant for suggesting code in IDEs like Android Studio or Xcode.",
+        "benefits": "Speeds up boilerplate code; helps with framework-specific syntax.",
+        "image_link": "https://github.githubassets.com/images/modules/site/copilot/copilot.png"
+      },
+      {
+        "name": "ChatGPT",
+        "description": "Generates code snippets, explains errors, and brainstorms app features.",
+        "benefits": "Quick prototyping and debugging for solo developers.",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+      },
+      {
+        "name": "Cursor AI",
+        "description": "AI-enhanced editor for mobile code, with chat and editing features.",
+        "benefits": "Streamlines Flutter/React Native development.",
+        "image_link": "https://www.cursor.com/assets/cursor-logo.png"
+      },
+      {
+        "name": "FlutterFlow",
+        "description": "AI-powered low-code platform for building Flutter apps visually.",
+        "benefits": "Rapid UI prototyping; integrates custom code.",
+        "image_link": "https://flutterflow.io/assets/images/logo/flutterflow-logo.png"
+      },
+      {
+        "name": "Thunkable",
+        "description": "AI-assisted no-code tool for cross-platform app creation.",
+        "benefits": "Automates components; great for MVPs.",
+        "image_link": "https://www.thunkable.com/assets/images/thunkable-logo.png"
+      },
+      {
+        "name": "Test.ai",
+        "description": "AI for automated app testing across devices.",
+        "benefits": "Detects UI issues; reduces manual testing time.",
+        "image_link": "https://www.test.ai/assets/images/testai-logo.png"
+      },
+      {
+        "name": "Adobe Firefly",
+        "description": "AI image generation for app assets and icons.",
+        "benefits": "Custom graphics without designers.",
+        "image_link": "https://www.adobe.com/products/firefly/assets/images/firefly-logo.svg"
+      },
+      {
+        "name": "Figma AI",
+        "description": "AI features in Figma for design suggestions and auto-layout.",
+        "benefits": "Enhances mobile UI prototyping.",
+        "image_link": "https://www.figma.com/blog/wp-content/uploads/2023/06/figma-ai-hero.png"
+      }
+    ]
+  },
+  {
+    "domain": "Data Science",
+    "CardData": "Analyze and interpret complex data to extract meaningful insights using Python and R.",
+    "introduction": "Data science combines statistics, programming, and domain knowledge to extract insights from data. It involves data collection, analysis, modeling, and visualization to solve complex problems. With AI's rise, data scientists are key in decision-making across industries. This roadmap from beginner to advanced emphasizes projects for practical application. Avoid excessive theory—apply concepts through real datasets to build intuition and skills efficiently.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Build foundational skills in math, programming, and data handling. Focus on exploring datasets to understand patterns.",
+        "key_topics": [
+          {
+            "topic": "Mathematics & Statistics",
+            "details": "Probability, linear algebra, descriptive/inferential statistics. Why important: Basis for algorithms. Pro tip: Use Khan Academy for interactive learning."
+          },
+          {
+            "topic": "Programming",
+            "details": "Python/R basics, libraries like NumPy, Pandas. Why important: Tools for data manipulation. Pro tip: Master Pandas for efficient dataframes handling."
+          },
+          {
+            "topic": "Data Visualization",
+            "details": "Matplotlib, Seaborn, Tableau. Why important: Communicates insights. Pro tip: Focus on storytelling with charts."
+          }
+        ],
+        "projects": "Analyze a public dataset (e.g., Titanic on Kaggle), create visualizations.",
+        "tips": "Use Jupyter Notebooks for experimentation. Practice on Kaggle datasets daily."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "Learn machine learning basics, data cleaning, and feature engineering. Build predictive models.",
+        "key_topics": [
+          {
+            "topic": "Machine Learning Fundamentals",
+            "details": "Supervised/unsupervised learning, scikit-learn. Why important: Core of data science. Pro tip: Understand bias-variance tradeoff."
+          },
+          {
+            "topic": "Data Preprocessing",
+            "details": "Cleaning, imputation, scaling. Why important: Garbage in, garbage out. Pro tip: Use pipelines for reproducible workflows."
+          },
+          {
+            "topic": "SQL & Databases",
+            "details": "Queries, joins, relational databases. Why important: Data retrieval. Pro tip: Learn window functions for advanced analytics."
+          }
+        ],
+        "projects": "Build a classification model for iris dataset, predict house prices.",
+        "tips": "Participate in Kaggle competitions. Focus on model evaluation metrics."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "Dive into deep learning, big data, and deployment. Handle real-world scalability.",
+        "key_topics": [
+          {
+            "topic": "Deep Learning",
+            "details": "TensorFlow/PyTorch, neural networks, CNN/RNN. Why important: For complex data like images/text. Pro tip: Use transfer learning for efficiency."
+          },
+          {
+            "topic": "Big Data Technologies",
+            "details": "Hadoop, Spark, cloud services (AWS/GCP). Why important: Handles large datasets. Pro tip: Learn PySpark for distributed computing."
+          },
+          {
+            "topic": "Model Deployment & Ethics",
+            "details": "Flask/Docker for APIs, bias mitigation. Why important: Real-world application. Pro tip: Use MLflow for experiment tracking."
+          }
+        ],
+        "projects": "Develop a computer vision app, deploy a sentiment analysis model.",
+        "tips": "Contribute to open-source. Network on LinkedIn/Data Science forums."
+      }
+    ],
+    "general_tips": [
+      "Projects over theory: Analyze real data to reinforce learning.",
+      "Stay current: Follow Towards Data Science, attend PyCon.",
+      "Tools: Jupyter, VS Code, Git for version control.",
+      "Soft skills: Communicate findings clearly to non-technical audiences.",
+      "Career: Build Kaggle portfolio, certify with Google Data Analytics."
+    ],
+    "ai_tools": [
+      {
+        "name": "ChatGPT",
+        "description": "Assists in code generation, data analysis queries, and model explanations.",
+        "benefits": "Quick insights; helps with statistical concepts.",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+      },
+      {
+        "name": "Notion AI",
+        "description": "Organizes notes, tasks, and data project planning.",
+        "benefits": "Streamlines workflow; AI summaries for reports.",
+        "image_link": "https://www.notion.so/images/logo-ios.png"
+      },
+      {
+        "name": "Motion",
+        "description": "AI task planner for data projects.",
+        "benefits": "Auto-schedules analysis tasks.",
+        "image_link": "https://www.usemotion.com/images/logo.png"
+      },
+      {
+        "name": "Tabular",
+        "description": "AI for data exploration and cleaning.",
+        "benefits": "Automates preprocessing; boosts efficiency.",
+        "image_link": "https://tabular.io/assets/images/logo.png"
+      },
+      {
+        "name": "DataRobot",
+        "description": "Automated ML platform for model building.",
+        "benefits": "Speeds up prototyping; handles feature engineering.",
+        "image_link": "https://www.datarobot.com/assets/images/datarobot-logo.png"
+      },
+      {
+        "name": "H2O.ai",
+        "description": "Open-source AI for auto-ML.",
+        "benefits": "Scalable models; integrates with Python/R.",
+        "image_link": "https://www.h2o.ai/wp-content/uploads/2019/07/h2o-logo.png"
+      },
+      {
+        "name": "Databricks",
+        "description": "AI for collaborative data science on big data.",
+        "benefits": "Unified platform; MLflow for tracking.",
+        "image_link": "https://www.databricks.com/wp-content/uploads/2019/09/databricks-logo.png"
+      }
+    ]
+  },
+  {
+    "domain": "Data Analytics",
+    "CardData": "Use statistical tools and visualization to make data-driven business decisions.",
+    "introduction": "Data analytics involves examining raw data to uncover trends and answer questions. It focuses on descriptive and diagnostic analysis to support business decisions. Unlike data science, it's more about insights from existing data. This roadmap builds from basics to advanced, with emphasis on projects for practical mastery. Spend time on tools and visualization—learn by analyzing real business datasets to develop analytical thinking.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Learn data handling, basic stats, and visualization. Focus on cleaning and exploring data.",
+        "key_topics": [
+          {
+            "topic": "Statistics Basics",
+            "details": "Mean, median, variance, correlation. Why important: Foundation for insights. Pro tip: Use Excel for initial practice."
+          },
+          {
+            "topic": "Tools & Languages",
+            "details": "Excel, SQL, Python (Pandas). Why important: Data manipulation. Pro tip: Master SQL queries for efficient data retrieval."
+          },
+          {
+            "topic": "Visualization",
+            "details": "Tableau, Power BI, Google Data Studio. Why important: Storytelling with data. Pro tip: Learn DAX in Power BI for advanced calculations."
+          }
+        ],
+        "projects": "Analyze sales data in Excel, create dashboards in Tableau.",
+        "tips": "Use public datasets from UCI Repository. Practice SQL on LeetCode."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "Advance to data modeling and reporting. Handle larger datasets and business questions.",
+        "key_topics": [
+          {
+            "topic": "Advanced SQL",
+            "details": "Joins, subqueries, window functions. Why important: Complex queries. Pro tip: Optimize for performance in large databases."
+          },
+          {
+            "topic": "Data Cleaning & ETL",
+            "details": "Handling missing data, transformations. Why important: Accurate analysis. Pro tip: Use Alteryx or Talend for ETL workflows."
+          },
+          {
+            "topic": "Business Intelligence",
+            "details": "KPI tracking, dashboards. Why important: Actionable insights. Pro tip: Integrate APIs for real-time data."
+          }
+        ],
+        "projects": "Build a marketing analytics dashboard, forecast trends with Excel.",
+        "tips": "Work on case studies from Analytics Vidhya. Focus on business context."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "Incorporate predictive analytics, big data, and automation. Solve strategic problems.",
+        "key_topics": [
+          {
+            "topic": "Predictive Modeling",
+            "details": "Regression, time series (using R/Python). Why important: Forecasting. Pro tip: Use ARIMA for time-series analysis."
+          },
+          {
+            "topic": "Big Data Tools",
+            "details": "Hadoop, Spark, cloud analytics (BigQuery). Why important: Scalability. Pro tip: Learn Spark SQL for distributed querying."
+          },
+          {
+            "topic": "Automation & Reporting",
+            "details": "Scripting with Python, automated dashboards. Why important: Efficiency. Pro tip: Use Airflow for scheduling pipelines."
+          }
+        ],
+        "projects": "Predict customer churn, create automated reports for e-commerce.",
+        "tips": "Certify with Google Data Analytics Professional. Network on Tableau Public."
+      }
+    ],
+    "general_tips": [
+      "Projects: Solve business problems with data to build portfolio.",
+      "Update: Follow Dataquest, attend BI conferences.",
+      "Tools: Excel, SQL Server, Git for versioned analysis.",
+      "Soft skills: Present findings effectively.",
+      "Career: Freelance on Upwork, aim for analyst roles."
+    ],
+    "ai_tools": [
+      {
+        "name": "Tableau AI",
+        "description": "AI for data viz suggestions and insights.",
+        "benefits": "Automates dashboard creation.",
+        "image_link": "https://www.tableau.com/sites/default/files/2023-05/Tableau-Logo-RGB.png"
+      },
+      {
+        "name": "Alteryx",
+        "description": "AI for data blending and predictive analytics.",
+        "benefits": "No-code workflows; speeds ETL.",
+        "image_link": "https://www.alteryx.com/sites/default/files/2020-10/alteryx-logo.png"
+      },
+      {
+        "name": "Power BI AI",
+        "description": "Built-in AI for anomaly detection and forecasting.",
+        "benefits": "Enhances reports with auto-insights.",
+        "image_link": "https://powerbi.microsoft.com/images/power-bi-logo.svg"
+      },
+      {
+        "name": "ChatGPT",
+        "description": "Generates SQL queries, explains stats.",
+        "benefits": "Quick problem-solving.",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+      },
+      {
+        "name": "H2O.ai",
+        "description": "Auto-ML for analytics models.",
+        "benefits": "Scalable for big data.",
+        "image_link": "https://www.h2o.ai/wp-content/uploads/2019/07/h2o-logo.png"
+      },
+      {
+        "name": "Databricks",
+        "description": "AI collaborative platform for analytics.",
+        "benefits": "Unified data engineering.",
+        "image_link": "https://www.databricks.com/wp-content/uploads/2019/09/databricks-logo.png"
+      },
+      {
+        "name": "Motion",
+        "description": "AI for task planning in analytics projects.",
+        "benefits": "Prioritizes analysis tasks.",
+        "image_link": "https://www.usemotion.com/images/logo.png"
+      }
+    ]
+  },
+  {
+    "domain": "Artificial Intelligence",
+    "CardData": "Explore AI techniques including neural networks, NLP, and robotics to innovate solutions.",
+    "introduction": "Artificial Intelligence (AI) focuses on creating systems that perform tasks requiring human intelligence, like reasoning and learning. It encompasses ML, NLP, and robotics. AI engineers build intelligent systems for various applications. This roadmap from beginner to advanced prioritizes projects to apply concepts. Balance theory with practice—build AI prototypes early to understand limitations and ethics.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Grasp AI basics, math, and programming. Experiment with simple algorithms.",
+        "key_topics": [
+          {
+            "topic": "Math for AI",
+            "details": "Calculus, linear algebra, probability. Why important: Algorithm foundations. Pro tip: Use MIT OpenCourseWare."
+          },
+          {
+            "topic": "Python Programming",
+            "details": "Basics, libraries (NumPy, Matplotlib). Why important: AI standard language. Pro tip: Learn object-oriented programming for modularity."
+          },
+          {
+            "topic": "AI Concepts",
+            "details": "Search algorithms, knowledge representation. Why important: Core principles. Pro tip: Study A* for pathfinding."
+          }
+        ],
+        "projects": "Implement tic-tac-toe AI, simple chatbots.",
+        "tips": "Use Coursera AI for Everyone. Practice on LeetCode AI sections."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "Dive into ML, ethics, and tools. Build supervised models.",
+        "key_topics": [
+          {
+            "topic": "Machine Learning",
+            "details": "Regression, classification, scikit-learn. Why important: AI subset. Pro tip: Cross-validation for model robustness."
+          },
+          {
+            "topic": "AI Ethics & Bias",
+            "details": "Fairness, transparency. Why important: Responsible AI. Pro tip: Use Fairlearn for bias mitigation."
+          },
+          {
+            "topic": "Data Handling",
+            "details": "Preprocessing, feature selection. Why important: Quality input. Pro tip: Handle imbalanced data with SMOTE."
+          }
+        ],
+        "projects": "Sentiment analysis on tweets, image classifier.",
+        "tips": "Join AI communities on Discord. Focus on explainable AI."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "Explore deep learning, reinforcement learning, deployment. Tackle complex systems.",
+        "key_topics": [
+          {
+            "topic": "Deep Learning",
+            "details": "Neural nets, TensorFlow/Keras. Why important: Advanced tasks. Pro tip: Use GPUs for training acceleration."
+          },
+          {
+            "topic": "Reinforcement Learning",
+            "details": "Q-learning, Deep RL. Why important: Decision-making. Pro tip: Simulate environments with Gym."
+          },
+          {
+            "topic": "AI Deployment",
+            "details": "Docker, cloud (AWS SageMaker). Why important: Production. Pro tip: Monitor models with Prometheus."
+          }
+        ],
+        "projects": "Build a game-playing AI, deploy NLP model as API.",
+        "tips": "Contribute to Hugging Face. Attend NeurIPS."
+      }
+    ],
+    "general_tips": [
+      "Projects: Prototype AI solutions for real problems.",
+      "Update: Read AI papers on arXiv.",
+      "Tools: Colab for experiments, GitHub for sharing.",
+      "Soft skills: Ethical reasoning, teamwork.",
+      "Career: Certify with IBM AI Engineering, freelance AI tasks."
+    ],
+    "ai_tools": [
+      {
+        "name": "ChatGPT",
+        "description": "For AI concept explanations and code generation.",
+        "benefits": "Accelerates learning prototypes.",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+      },
+      {
+        "name": "Hugging Face",
+        "description": "Platform for pre-trained models and datasets.",
+        "benefits": "Easy fine-tuning; community support.",
+        "image_link": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+      },
+      {
+        "name": "TensorFlow",
+        "description": "Open-source for building AI models.",
+        "benefits": "Scalable; integrates with Keras.",
+        "image_link": "https://www.tensorflow.org/images/tf_logo_social.png"
+      },
+      {
+        "name": "PyTorch",
+        "description": "Dynamic neural net library.",
+        "benefits": "Flexible for research.",
+        "image_link": "https://pytorch.org/assets/images/logo-dark.svg"
+      },
+      {
+        "name": "Google Colab",
+        "description": "Cloud Jupyter with GPU support.",
+        "benefits": "Free computing for experiments.",
+        "image_link": "https://colab.research.google.com/img/colab_favicon_256px.png"
+      },
+      {
+        "name": "Keras",
+        "description": "High-level API for neural networks.",
+        "benefits": "Simplifies model building.",
+        "image_link": "https://keras.io/img/logo-small.png"
+      },
+      {
+        "name": "Scikit-learn",
+        "description": "ML library for classical algorithms.",
+        "benefits": "Quick implementation.",
+        "image_link": "https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png"
+      }
+    ]
+  },
+  {
+    "domain": "Machine Learning",
+    "CardData": "Build predictive models and algorithms to enable machines to learn from data.",
+    "introduction": "Machine learning (ML) is a subset of AI where systems learn from data to improve performance. It includes supervised, unsupervised, and reinforcement learning. ML engineers design algorithms for predictive tasks. This roadmap emphasizes building models through projects. Prioritize data quality and experimentation—learn by tuning models on diverse datasets to master nuances.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Learn core concepts, math, and Python. Implement basic algorithms.",
+        "key_topics": [
+          {
+            "topic": "Math Foundations",
+            "details": "Linear algebra, calculus, stats. Why important: Algorithm understanding. Pro tip: Focus on gradients for optimization."
+          },
+          {
+            "topic": "Python for ML",
+            "details": "NumPy, Pandas, scikit-learn basics. Why important: Data prep. Pro tip: Use virtual environments."
+          },
+          {
+            "topic": "ML Basics",
+            "details": "Linear regression, k-means. Why important: Entry algorithms. Pro tip: Visualize decision boundaries."
+          }
+        ],
+        "projects": "Predict diabetes with logistic regression.",
+        "tips": "Andrew Ng's Coursera course. Practice on Kaggle."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "Advance to ensemble methods, feature engineering. Handle real data.",
+        "key_topics": [
+          {
+            "topic": "Supervised Learning",
+            "details": "Random forests, SVM. Why important: Classification/regression. Pro tip: Use grid search for hyperparams."
+          },
+          {
+            "topic": "Unsupervised Learning",
+            "details": "Clustering, PCA. Why important: Pattern discovery. Pro tip: Elbow method for k in k-means."
+          },
+          {
+            "topic": "Evaluation Metrics",
+            "details": "Accuracy, F1-score, ROC. Why important: Model assessment. Pro tip: Handle class imbalance."
+          }
+        ],
+        "projects": "Customer segmentation with clustering.",
+        "tips": "Build portfolios on GitHub. Join ML forums."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "Deep learning, RL, deployment. Scale models.",
+        "key_topics": [
+          {
+            "topic": "Deep Learning",
+            "details": "CNNs, RNNs, transformers. Why important: Complex data. Pro tip: Use pre-trained models."
+          },
+          {
+            "topic": "Reinforcement Learning",
+            "details": "Policy gradients, DQN. Why important: Sequential decisions. Pro tip: Start with CartPole."
+          },
+          {
+            "topic": "MLOps",
+            "details": "Model serving, monitoring. Why important: Production. Pro tip: Use Kubeflow."
+          }
+        ],
+        "projects": "Build a recommender system, RL agent for games.",
+        "tips": "Read 'Hands-On ML'. Attend ML conferences."
+      }
+    ],
+    "general_tips": [
+      "Experiment: Tune hyperparameters on projects.",
+      "Update: Follow ML blogs like Distill.pub.",
+      "Tools: Jupyter, TensorBoard for visualization.",
+      "Soft skills: Explain models simply.",
+      "Career: Kaggle competitions, AWS ML certification."
+    ],
+    "ai_tools": [
+      {
+        "name": "TensorFlow",
+        "description": "Framework for ML models.",
+        "benefits": "Production-ready.",
+        "image_link": "https://www.tensorflow.org/images/tf_logo_social.png"
+      },
+      {
+        "name": "PyTorch",
+        "description": "Flexible for research.",
+        "benefits": "Dynamic graphs.",
+        "image_link": "https://pytorch.org/assets/images/logo-dark.svg"
+      },
+      {
+        "name": "Hugging Face",
+        "description": "Models for NLP/CV.",
+        "benefits": "Easy transfer learning.",
+        "image_link": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+      },
+      {
+        "name": "Scikit-learn",
+        "description": "Classical ML algorithms.",
+        "benefits": "Simple API.",
+        "image_link": "https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png"
+      },
+      {
+        "name": "Keras",
+        "description": "High-level neural nets.",
+        "benefits": "User-friendly.",
+        "image_link": "https://keras.io/img/logo-small.png"
+      },
+      {
+        "name": "AutoML (Google)",
+        "description": "Automated model building.",
+        "benefits": "No-code ML.",
+        "image_link": "https://cloud.google.com/automl/images/automl-logo.png"
+      },
+      {
+        "name": "DataRobot",
+        "description": "End-to-end ML platform.",
+        "benefits": "Automated insights.",
+        "image_link": "https://www.datarobot.com/assets/images/datarobot-logo.png"
+      }
+    ]
+  },
+  {
+    "domain": "Cybersecurity",
+    "CardData": "Protect systems and networks by mastering ethical hacking, cryptography, and risk management.",
+    "introduction": "Cybersecurity protects systems, networks, and data from attacks. It includes threat detection, risk management, and compliance. With increasing cyber threats, professionals are vital for security. This roadmap from beginner to advanced stresses practical labs. Learn by simulating attacks—use ethical hacking tools to understand defenses without deep theory overload.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Understand basics of networking, OS, and security concepts. Set up secure environments.",
+        "key_topics": [
+          {
+            "topic": "Networking Basics",
+            "details": "TCP/IP, firewalls, VPNs. Why important: Threat pathways. Pro tip: Use Wireshark for packet analysis."
+          },
+          {
+            "topic": "Operating Systems",
+            "details": "Linux/Windows security, user management. Why important: System protection. Pro tip: Learn Bash/PowerShell scripting."
+          },
+          {
+            "topic": "Security Concepts",
+            "details": "CIA triad, encryption basics. Why important: Core principles. Pro tip: Study symmetric/asymmetric keys."
+          }
+        ],
+        "projects": "Set up a home lab firewall, basic encryption script.",
+        "tips": "Cybrary free courses. Practice on TryHackMe."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "Learn threat detection, vulnerability assessment. Perform ethical hacks.",
+        "key_topics": [
+          {
+            "topic": "Threat Modeling",
+            "details": "OWASP Top 10, risk assessment. Why important: Proactive defense. Pro tip: Use STRIDE methodology."
+          },
+          {
+            "topic": "Tools & Techniques",
+            "details": "Nmap, Metasploit, Burp Suite. Why important: Penetration testing. Pro tip: Scan for vulnerabilities safely."
+          },
+          {
+            "topic": "Incident Response",
+            "details": "Forensics, recovery plans. Why important: Post-breach. Pro tip: Practice with Volatility for memory analysis."
+          }
+        ],
+        "projects": "Conduct a vulnerability scan, simulate phishing attack.",
+        "tips": "HackTheBox labs. Focus on legal ethics."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "Advanced threats, cloud security, leadership. Design secure architectures.",
+        "key_topics": [
+          {
+            "topic": "Advanced Threats",
+            "details": "APT, zero-day exploits. Why important: Evolving attacks. Pro tip: Use ELK stack for logging."
+          },
+          {
+            "topic": "Cloud & IoT Security",
+            "details": "AWS/Azure security, device hardening. Why important: Modern environments. Pro tip: Implement zero-trust models."
+          },
+          {
+            "topic": "Compliance & Management",
+            "details": "GDPR, ISO 27001, team leadership. Why important: Organizational security. Pro tip: Audit simulations."
+          }
+        ],
+        "projects": "Build secure cloud infrastructure, red team exercise.",
+        "tips": "Contribute to Bug Bounty. Attend Black Hat."
+      }
+    ],
+    "general_tips": [
+      "Labs over theory: Simulate attacks in safe environments.",
+      "Update: Follow Krebs on Security.",
+      "Tools: Kali Linux, VirtualBox for labs.",
+      "Soft skills: Report vulnerabilities clearly.",
+      "Career: Certify with CompTIA Security+, freelance pentests."
+    ],
+    "ai_tools": [
+      {
+        "name": "Darktrace",
+        "description": "AI for autonomous threat detection.",
+        "benefits": "Real-time response.",
+        "image_link": "https://www.darktrace.com/assets/images/darktrace-logo.png"
+      },
+      {
+        "name": "CrowdStrike Falcon",
+        "description": "AI endpoint protection.",
+        "benefits": "Prevents breaches.",
+        "image_link": "https://www.crowdstrike.com/wp-content/uploads/2019/11/crowdstrike-logo.png"
+      },
+      {
+        "name": "IBM Watson for Cyber Security",
+        "description": "AI for threat intelligence.",
+        "benefits": "Analyzes unstructured data.",
+        "image_link": "https://www.ibm.com/images/portal/logo-ibm-watson.png"
+      },
+      {
+        "name": "Microsoft Security Copilot",
+        "description": "AI assistant for security ops.",
+        "benefits": "Automates investigations.",
+        "image_link": "https://www.microsoft.com/security/images/security-copilot-logo.png"
+      },
+      {
+        "name": "PentestGPT",
+        "description": "AI for penetration testing.",
+        "benefits": "Guides ethical hacks.",
+        "image_link": "https://example.com/pentestgpt-logo.png"
+      },
+      {
+        "name": "Cylance",
+        "description": "AI antivirus.",
+        "benefits": "Predictive malware detection.",
+        "image_link": "https://www.blackberry.com/content/dam/bbcom/images/logos/cylance-logo.png"
+      },
+      {
+        "name": "Vectra AI",
+        "description": "Network threat detection.",
+        "benefits": "Behavioral analysis.",
+        "image_link": "https://www.vectra.ai/images/vectra-logo.png"
+      },
+      {
+        "name": "Deep Instinct",
+        "description": "Deep learning cybersecurity.",
+        "benefits": "Zero-day prevention.",
+        "image_link": "https://www.deepinstinct.com/wp-content/uploads/2019/10/deep-instinct-logo.png"
+      }
+    ]
+  },
+  {
+    "domain": "Cloud Computing",
+    "CardData": "Leverage cloud platforms like AWS, Azure, and Google Cloud for scalable solutions.",
+    "introduction": "Cloud computing delivers on-demand resources via the internet, including storage, computing power, and databases. It enables scalable, cost-effective solutions. Cloud engineers manage infrastructure in platforms like AWS, Azure. This roadmap focuses on practical deployments. Learn by migrating apps to cloud—start small to understand costs and security without overwhelming theory.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Understand cloud models, basics of major providers. Set up simple resources.",
+        "key_topics": [
+          {
+            "topic": "Cloud Concepts",
+            "details": "IaaS, PaaS, SaaS; public/private/hybrid. Why important: Deployment choices. Pro tip: Compare AWS vs Azure services."
+          },
+          {
+            "topic": "Core Services",
+            "details": "EC2/VMs, S3/Blob Storage. Why important: Building blocks. Pro tip: Learn pricing models to optimize costs."
+          },
+          {
+            "topic": "Networking & Security",
+            "details": "VPCs, IAM. Why important: Secure access. Pro tip: Implement least privilege principle."
+          }
+        ],
+        "projects": "Deploy a static website on S3, set up a VM.",
+        "tips": "Free tiers on AWS/Azure. Use official docs."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "Learn automation, databases, monitoring. Build multi-tier apps.",
+        "key_topics": [
+          {
+            "topic": "Automation & IaC",
+            "details": "Terraform, CloudFormation. Why important: Reproducible infra. Pro tip: Version control templates with Git."
+          },
+          {
+            "topic": "Databases & Storage",
+            "details": "RDS, DynamoDB. Why important: Data management. Pro tip: Choose SQL vs NoSQL based on use case."
+          },
+          {
+            "topic": "Monitoring & Logging",
+            "details": "CloudWatch, Azure Monitor. Why important: Performance tracking. Pro tip: Set alerts for anomalies."
+          }
+        ],
+        "projects": "Build a scalable web app with auto-scaling, database.",
+        "tips": "Practice CI/CD with GitHub Actions."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "Serverless, DevOps, hybrid clouds. Optimize for enterprise.",
+        "key_topics": [
+          {
+            "topic": "Serverless Computing",
+            "details": "Lambda, Functions. Why important: Cost efficiency. Pro tip: Handle cold starts."
+          },
+          {
+            "topic": "DevOps Practices",
+            "details": "Kubernetes, CI/CD pipelines. Why important: Agility. Pro tip: Use Helm for K8s management."
+          },
+          {
+            "topic": "Advanced Security & Compliance",
+            "details": "Encryption, audits. Why important: Regulations. Pro tip: Implement zero-trust."
+          }
+        ],
+        "projects": "Deploy microservices with Kubernetes, hybrid cloud setup.",
+        "tips": "Certify with AWS Certified Architect. Join cloud communities."
+      }
+    ],
+    "general_tips": [
+      "Hands-on: Use sandboxes for experimentation.",
+      "Update: Follow re:Invent, Microsoft Ignite.",
+      "Tools: AWS CLI, Terraform.",
+      "Soft skills: Cost management communication.",
+      "Career: Build labs on GitHub, freelance cloud migrations."
+    ],
+    "ai_tools": [
+      {
+        "name": "AWS Q Developer",
+        "description": "AI for cloud code suggestions.",
+        "benefits": "Accelerates IaC.",
+        "image_link": "https://aws.amazon.com/q/images/q-logo.png"
+      },
+      {
+        "name": "Google Cloud AI",
+        "description": "Tools for cloud optimization.",
+        "benefits": "Auto-scaling recommendations.",
+        "image_link": "https://cloud.google.com/images/google-cloud-logo.png"
+      },
+      {
+        "name": "Azure AI",
+        "description": "Integrated AI for cloud services.",
+        "benefits": "Anomaly detection.",
+        "image_link": "https://azure.microsoft.com/images/azure-logo.png"
+      },
+      {
+        "name": "ChatGPT",
+        "description": "For cloud config troubleshooting.",
+        "benefits": "Quick answers.",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+      },
+      {
+        "name": "GitHub Copilot",
+        "description": "Code completion for Terraform.",
+        "benefits": "Faster scripting.",
+        "image_link": "https://github.githubassets.com/images/modules/site/copilot/copilot.png"
+      },
+      {
+        "name": "Jules",
+        "description": "Async coding assistant for cloud.",
+        "benefits": "Automates tasks.",
+        "image_link": "https://example.com/jules-logo.png"
+      },
+      {
+        "name": "Datadog AI",
+        "description": "AI monitoring for cloud.",
+        "benefits": "Predictive alerts.",
+        "image_link": "https://www.datadog.com/wp-content/uploads/2019/10/datadog-logo.png"
+      }
+    ]
+  },
+  {
+    "domain": "Digital Marketing",
+    "CardData": "Drive online growth using SEO, social media, content marketing, and analytics.",
+    "introduction": "Digital marketing uses online channels to promote products/services. It includes SEO, content, social media, and analytics. Professionals optimize campaigns for ROI. This roadmap stresses practical campaigns. Learn by running small ads—analyze results to refine strategies without excessive theory.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Understand channels, basics of online presence. Create simple content.",
+        "key_topics": [
+          {
+            "topic": "Marketing Basics",
+            "details": "4Ps, target audience. Why important: Strategy foundation. Pro tip: Use buyer personas."
+          },
+          {
+            "topic": "Content Creation",
+            "details": "Blogging, social posts. Why important: Engagement. Pro tip: SEO keywords with Google Trends."
+          },
+          {
+            "topic": "Analytics Tools",
+            "details": "Google Analytics, Facebook Insights. Why important: Measure success. Pro tip: Track conversions."
+          }
+        ],
+        "projects": "Build a personal blog, run a social campaign.",
+        "tips": "Free Google Digital Garage course."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "SEO, paid ads, email marketing. Optimize for conversions.",
+        "key_topics": [
+          {
+            "topic": "SEO & SEM",
+            "details": "On-page/off-page, Google Ads. Why important: Visibility. Pro tip: Use Ahrefs for backlinks."
+          },
+          {
+            "topic": "Social Media Marketing",
+            "details": "Platforms strategies, influencer collab. Why important: Audience reach. Pro tip: Schedule with Buffer."
+          },
+          {
+            "topic": "Email & Automation",
+            "details": "Mailchimp, drip campaigns. Why important: Retention. Pro tip: A/B test subject lines."
+          }
+        ],
+        "projects": "SEO optimize a site, run PPC campaign.",
+        "tips": "Analyze metrics weekly."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "Data-driven strategies, automation, leadership. Scale campaigns.",
+        "key_topics": [
+          {
+            "topic": "Advanced Analytics",
+            "details": "Attribution modeling, AI insights. Why important: ROI. Pro tip: Use Google Data Studio."
+          },
+          {
+            "topic": "Content Strategy",
+            "details": "Funnel marketing, video/AR. Why important: Conversion. Pro tip: Personalization with segments."
+          },
+          {
+            "topic": "Marketing Automation",
+            "details": "HubSpot, CRM integration. Why important: Efficiency. Pro tip: Lead scoring."
+          }
+        ],
+        "projects": "Full-funnel campaign, A/B test variants.",
+        "tips": "Certify with HubSpot. Network on LinkedIn."
+      }
+    ],
+    "general_tips": [
+      "Campaigns: Test small budgets first.",
+      "Update: Follow Search Engine Journal.",
+      "Tools: Canva for visuals, Google Ads.",
+      "Soft skills: Creativity, data interpretation.",
+      "Career: Freelance on Fiverr, Google Digital Marketing cert."
+    ],
+    "ai_tools": [
+      {
+        "name": "Gumloop",
+        "description": "AI for marketing automations.",
+        "benefits": "Streamlines workflows.",
+        "image_link": "https://gumloop.com/assets/logo.png"
+      },
+      {
+        "name": "Jasper AI",
+        "description": "AI content generation.",
+        "benefits": "SEO-optimized copy.",
+        "image_link": "https://www.jasper.ai/hubfs/Imported%20sitepage%20images/Logo%20-%20Color.svg"
+      },
+      {
+        "name": "Fibr AI",
+        "description": "AI for personalized campaigns.",
+        "benefits": "Automates emails/social.",
+        "image_link": "https://fibr.ai/assets/logo.png"
+      },
+      {
+        "name": "ChatGPT",
+        "description": "Brainstorming ideas, ad copy.",
+        "benefits": "Quick content.",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+      },
+      {
+        "name": "Midjourney",
+        "description": "AI for visual content.",
+        "benefits": "Generates images for posts.",
+        "image_link": "https://www.midjourney.com/assets/logo.png"
+      },
+      {
+        "name": "Google Gemini",
+        "description": "AI for campaign optimization.",
+        "benefits": "Predicts trends.",
+        "image_link": "https://gemini.google.com/static/logo.png"
+      },
+      {
+        "name": "HubSpot AI",
+        "description": "AI for CRM and marketing.",
+        "benefits": "Personalized recommendations.",
+        "image_link": "https://www.hubspot.com/hubfs/HubSpot_Logo.png"
+      },
+      {
+        "name": "Copy.ai",
+        "description": "AI copywriting for ads.",
+        "benefits": "Generates engaging text.",
+        "image_link": "https://www.copy.ai/assets/logo.png"
+      },
+      {
+        "name": "Canva Magic Studio",
+        "description": "AI design for social graphics.",
+        "benefits": "Automated creations.",
+        "image_link": "https://www.canva.com/assets/images/canva-logo.png"
+      },
+      {
+        "name": "Hootsuite Insights",
+        "description": "AI for social analytics.",
+        "benefits": "Sentiment analysis.",
+        "image_link": "https://hootsuite.com/assets/images/hootsuite-logo.png"
+      }
+    ]
+  },
+  {
+    "domain": "UI/UX Design",
+    "CardData": "Design user-friendly interfaces and engaging experiences with tools like Figma and Adobe XD.",
+    "introduction": "UI/UX design focuses on creating intuitive and aesthetically pleasing interfaces for digital products. UI deals with visual elements, UX with user experience flow. Designers research, wireframe, and prototype to ensure usability. This roadmap emphasizes user-centered projects. Learn by redesigning apps—gather feedback to iterate designs for better usability.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Learn design principles, tools, user research basics. Create simple interfaces.",
+        "key_topics": [
+          {
+            "topic": "Design Principles",
+            "details": "Hierarchy, consistency, accessibility. Why important: Usable interfaces. Pro tip: Follow WCAG guidelines."
+          },
+          {
+            "topic": "Tools",
+            "details": "Figma, Adobe XD. Why important: Prototyping. Pro tip: Keyboard shortcuts."
+          },
+          {
+            "topic": "User Research",
+            "details": "Surveys, personas. Why important: User needs. Pro tip: Empathy maps."
+          }
+        ],
+        "projects": "Wireframe a mobile app screen, simple landing page.",
+        "tips": "UX Planet blog. Practice on Dribbble challenges."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "Wireframing, prototyping, usability testing. Design full flows.",
+        "key_topics": [
+          {
+            "topic": "Wireframing & Prototyping",
+            "details": "Low/high-fidelity, interactions. Why important: Visualization. Pro tip: Use auto-animate in Figma."
+          },
+          {
+            "topic": "Usability Testing",
+            "details": "A/B testing, heuristics. Why important: Validation. Pro tip: Nielsen's principles."
+          },
+          {
+            "topic": "Visual Design",
+            "details": "Typography, color theory. Why important: Aesthetics. Pro tip: Adobe Color tools."
+          }
+        ],
+        "projects": "Prototype an e-commerce checkout flow.",
+        "tips": "UserTesting platform. Collaborate on Figma."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "Advanced research, motion design, portfolio. Lead design projects.",
+        "key_topics": [
+          {
+            "topic": "Advanced Research",
+            "details": "Journey maps, analytics. Why important: Deep insights. Pro tip: Google Analytics integration."
+          },
+          {
+            "topic": "Motion & Interaction Design",
+            "details": "Animations, micro-interactions. Why important: Delight. Pro tip: Principle app."
+          },
+          {
+            "topic": "Design Systems",
+            "details": "Components libraries. Why important: Consistency. Pro tip: Storybook for devs."
+          }
+        ],
+        "projects": "Design system for a brand, full app redesign.",
+        "tips": "Certify with Google UX Design. Network on Behance."
+      }
+    ],
+    "general_tips": [
+      "User feedback: Iterate based on tests.",
+      "Update: Follow Smashing Magazine.",
+      "Tools: Sketch, InVision.",
+      "Soft skills: Empathy, presentation.",
+      "Career: Portfolio on Behance, freelance on Upwork."
+    ],
+    "ai_tools": [
+      {
+        "name": "Figma AI",
+        "description": "AI for design suggestions.",
+        "benefits": "Speeds prototyping.",
+        "image_link": "https://www.figma.com/blog/wp-content/uploads/2023/06/figma-ai-hero.png"
+      },
+      {
+        "name": "Adobe Firefly",
+        "description": "AI image generation for mocks.",
+        "benefits": "Custom assets.",
+        "image_link": "https://www.adobe.com/products/firefly/assets/images/firefly-logo.svg"
+      },
+      {
+        "name": "Uizard",
+        "description": "AI for wireframe generation from text.",
+        "benefits": "Rapid ideation.",
+        "image_link": "https://uizard.io/assets/images/uizard-logo.png"
+      },
+      {
+        "name": "Khroma",
+        "description": "AI color palette generator.",
+        "benefits": "Harmonious schemes.",
+        "image_link": "https://www.khroma.co/assets/images/khroma-logo.png"
+      },
+      {
+        "name": "VisualEyes",
+        "description": "AI for eye-tracking simulation.",
+        "benefits": "Usability predictions.",
+        "image_link": "https://visualeyes.design/assets/images/logo.png"
+      },
+      {
+        "name": "Galileo AI",
+        "description": "AI for design inspiration.",
+        "benefits": "Generates layouts.",
+        "image_link": "https://www.galileo.ai/assets/logo.png"
+      },
+      {
+        "name": "Motiff",
+        "description": "AI for design system automation.",
+        "benefits": "Consistent components.",
+        "image_link": "https://motiff.com/assets/logo.png"
+      },
+      {
+        "name": "UX Pilot",
+        "description": "AI for UX research insights.",
+        "benefits": "Automates feedback analysis.",
+        "image_link": "https://uxpilot.ai/assets/logo.png"
+      }
+    ]
+  },
+  {
+    "domain": "Software Engineering",
+    "CardData": "Develop, test, and maintain software systems with best coding practices and methodologies.",
+    "introduction": "Software engineering applies engineering principles to software development. It includes design, coding, testing, and maintenance. Engineers build reliable systems. This roadmap focuses on full lifecycle. Learn by contributing to open-source—apply best practices in real codebases for comprehensive skills.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Learn programming, data structures, algorithms. Build simple programs.",
+        "key_topics": [
+          {
+            "topic": "Programming Languages",
+            "details": "Java/Python/C++. Why important: Core skill. Pro tip: Focus on one deeply."
+          },
+          {
+            "topic": "Data Structures & Algorithms",
+            "details": "Arrays, trees, sorting. Why important: Efficiency. Pro tip: Big O notation."
+          },
+          {
+            "topic": "Version Control",
+            "details": "Git, GitHub. Why important: Collaboration. Pro tip: Branching strategies."
+          }
+        ],
+        "projects": "Command-line tools, basic games.",
+        "tips": "LeetCode daily. CS50 course."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "Design patterns, databases, testing. Develop full apps.",
+        "key_topics": [
+          {
+            "topic": "Software Design",
+            "details": "OOP, patterns (singleton). Why important: Scalable code. Pro tip: SOLID principles."
+          },
+          {
+            "topic": "Databases",
+            "details": "SQL/NoSQL. Why important: Data persistence. Pro tip: Indexing for queries."
+          },
+          {
+            "topic": "Testing",
+            "details": "Unit, integration. Why important: Reliability. Pro tip: TDD approach."
+          }
+        ],
+        "projects": "Web app with backend, CRUD operations.",
+        "tips": "Clean Code book. Pair programming."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "System design, microservices, DevOps. Lead projects.",
+        "key_topics": [
+          {
+            "topic": "System Design",
+            "details": "Scalability, distributed systems. Why important: Large-scale. Pro tip: CAP theorem."
+          },
+          {
+            "topic": "DevOps",
+            "details": "CI/CD, Docker. Why important: Deployment. Pro tip: Kubernetes basics."
+          },
+          {
+            "topic": "Agile Methodologies",
+            "details": "Scrum, Kanban. Why important: Teamwork. Pro tip: Jira for tracking."
+          }
+        ],
+        "projects": "Microservices app, CI/CD pipeline.",
+        "tips": "Grokking System Design. Open-source contributions."
+      }
+    ],
+    "general_tips": [
+      "Code reviews: Learn from feedback.",
+      "Update: Read Hacker News.",
+      "Tools: VS Code, Docker.",
+      "Soft skills: Problem-solving, communication.",
+      "Career: LeetCode interviews, AWS cert."
+    ],
+    "ai_tools": [
+      {
+        "name": "GitHub Copilot",
+        "description": "AI code suggestions.",
+        "benefits": "Faster coding.",
+        "image_link": "https://github.githubassets.com/images/modules/site/copilot/copilot.png"
+      },
+      {
+        "name": "Tabnine",
+        "description": "AI completion multi-language.",
+        "benefits": "Privacy-focused.",
+        "image_link": "https://www.tabnine.com/hs-fs/hubfs/Tabnine%20logo%20new.png"
+      },
+      {
+        "name": "Cursor AI",
+        "description": "AI editor.",
+        "benefits": "Intelligent edits.",
+        "image_link": "https://www.cursor.com/assets/cursor-logo.png"
+      },
+      {
+        "name": "CodeGeeX",
+        "description": "Multilingual code gen.",
+        "benefits": "Translation support.",
+        "image_link": "https://codegeex.ai/assets/images/codegeex-logo.png"
+      },
+      {
+        "name": "OpenAI Codex",
+        "description": "AI for code.",
+        "benefits": "Parallel tasks.",
+        "image_link": "https://openai.com/assets/images/codex-logo.png"
+      },
+      {
+        "name": "Snyk Code",
+        "description": "AI security scans.",
+        "benefits": "Vulnerability detection.",
+        "image_link": "https://snyk.io/wp-content/uploads/snyk-logo.png"
+      },
+      {
+        "name": "Replit Ghostwriter",
+        "description": "AI in Replit.",
+        "benefits": "Online coding aid.",
+        "image_link": "https://replit.com/public/images/logo.png"
+      }
+    ]
+  },
+  {
+    "domain": "Game Development",
+    "CardData": "Create interactive games using Unity, Unreal Engine, and programming languages like C#.",
+    "introduction": "Game development creates interactive entertainment using engines, art, and code. It involves design, programming, and testing. Developers build engaging experiences. This roadmap stresses prototypes. Learn by making small games—iterate on mechanics to understand player engagement practically.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Learn programming, game engines, basic design.",
+        "key_topics": [
+          {
+            "topic": "Programming",
+            "details": "C#/C++, scripting. Why important: Logic. Pro tip: Unity's C#."
+          },
+          {
+            "topic": "Game Engines",
+            "details": "Unity, Unreal. Why important: Development framework. Pro tip: Start with Unity for 2D."
+          },
+          {
+            "topic": "Game Design Basics",
+            "details": "Mechanics, levels. Why important: Fun factor. Pro tip: Balance difficulty."
+          }
+        ],
+        "projects": "2D platformer, pong clone.",
+        "tips": "Unity Learn tutorials."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "Physics, AI, multiplayer basics. Build complete games.",
+        "key_topics": [
+          {
+            "topic": "Physics & Animation",
+            "details": "Rigidbodies, sprites. Why important: Realism. Pro tip: Use Blender for models."
+          },
+          {
+            "topic": "AI in Games",
+            "details": "Pathfinding, FSM. Why important: NPC behavior. Pro tip: A* algorithm."
+          },
+          {
+            "topic": "Audio & UI",
+            "details": "Sound effects, menus. Why important: Immersion. Pro tip: FMOD for audio."
+          }
+        ],
+        "projects": "RPG with AI enemies, simple multiplayer.",
+        "tips": "Godot for open-source alternative."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "Optimization, VR/AR, publishing. Create polished titles.",
+        "key_topics": [
+          {
+            "topic": "Performance Optimization",
+            "details": "Profiling, asset management. Why important: Smooth play. Pro tip: LOD techniques."
+          },
+          {
+            "topic": "Advanced Features",
+            "details": "VR/AR (Unity XR), procedural gen. Why important: Innovation. Pro tip: Integrate Steamworks."
+          },
+          {
+            "topic": "Publishing & Monetization",
+            "details": "Steam/Itch.io, ads/IAP. Why important: Release. Pro tip: Beta testing."
+          }
+        ],
+        "projects": "VR experience, procedural world game.",
+        "tips": "Join Game Jams."
+      }
+    ],
+    "general_tips": [
+      "Prototypes: Test ideas quickly.",
+      "Update: Follow GDC.",
+      "Tools: Blender, Aseprite.",
+      "Soft skills: Storytelling, team coordination.",
+      "Career: Itch.io portfolio, Unity cert."
+    ],
+    "ai_tools": [
+      {
+        "name": "Runway ML",
+        "description": "AI for video/animation in games.",
+        "benefits": "Generates assets.",
+        "image_link": "https://runwayml.com/images/logo.png"
+      },
+      {
+        "name": "Kaiber AI",
+        "description": "AI art for game visuals.",
+        "benefits": "Custom sprites.",
+        "image_link": "https://kaiber.ai/assets/logo.png"
+      },
+      {
+        "name": "Midjourney",
+        "description": "AI image gen for concepts.",
+        "benefits": "Rapid ideation.",
+        "image_link": "https://www.midjourney.com/assets/logo.png"
+      },
+      {
+        "name": "DALL-E",
+        "description": "OpenAI for art.",
+        "benefits": "Unique textures.",
+        "image_link": "https://openai.com/assets/images/dall-e-logo.png"
+      },
+      {
+        "name": "Canva Magic Studio",
+        "description": "AI design for UI.",
+        "benefits": "Quick mocks.",
+        "image_link": "https://www.canva.com/assets/images/canva-logo.png"
+      },
+      {
+        "name": "Pieces",
+        "description": "AI for code in Unity.",
+        "benefits": "Productivity boost.",
+        "image_link": "https://pieces.app/assets/logo.png"
+      },
+      {
+        "name": "ChatGPT",
+        "description": "For narrative, code help.",
+        "benefits": "Story generation.",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+      },
+      {
+        "name": "Lumen5",
+        "description": "AI video for trailers.",
+        "benefits": "Marketing aid.",
+        "image_link": "https://lumen5.com/assets/logo.png"
+      }
+    ]
+  },
+  {
+    "domain": "Blockchain Development",
+    "CardData": "Build decentralized applications and smart contracts on blockchain platforms.",
+    "introduction": "Blockchain development builds decentralized ledgers for secure transactions. It includes smart contracts, dApps, and crypto. Developers ensure immutability and consensus. This roadmap focuses on practical dApps. Learn by deploying contracts—start with testnets to understand gas costs and security.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Understand blockchain basics, crypto, programming.",
+        "key_topics": [
+          {
+            "topic": "Blockchain Concepts",
+            "details": "Blocks, hashing, consensus. Why important: Core mechanics. Pro tip: Study Proof of Work/Stake."
+          },
+          {
+            "topic": "Programming",
+            "details": "Solidity, JavaScript. Why important: Smart contracts. Pro tip: Remix IDE for starters."
+          },
+          {
+            "topic": "Crypto Basics",
+            "details": "Wallets, transactions. Why important: Security. Pro tip: Use MetaMask."
+          }
+        ],
+        "projects": "Simple smart contract for voting.",
+        "tips": "CryptoZombies game."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "Smart contracts, dApps, testing.",
+        "key_topics": [
+          {
+            "topic": "Smart Contracts",
+            "details": "ERC-20/721 standards. Why important: Tokens/NFTs. Pro tip: Avoid reentrancy bugs."
+          },
+          {
+            "topic": "dApp Development",
+            "details": "Web3.js, React integration. Why important: Frontend. Pro tip: Use Infura for nodes."
+          },
+          {
+            "topic": "Testing & Security",
+            "details": "Truffle, audits. Why important: Vulnerabilities. Pro tip: MythX for scans."
+          }
+        ],
+        "projects": "Build a decentralized marketplace.",
+        "tips": "Test on Ropsten network."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "Layer 2, DeFi, scalability.",
+        "key_topics": [
+          {
+            "topic": "Advanced Protocols",
+            "details": "DeFi, DAOs. Why important: Applications. Pro tip: Uniswap clones."
+          },
+          {
+            "topic": "Scaling Solutions",
+            "details": "Polygon, Optimism. Why important: Efficiency. Pro tip: Rollups for low fees."
+          },
+          {
+            "topic": "Cross-Chain",
+            "details": "Bridges, Polkadot. Why important: Interoperability. Pro tip: Wormhole integration."
+          }
+        ],
+        "projects": "DeFi app with lending, cross-chain token swap.",
+        "tips": "Audit with Certik."
+      }
+    ],
+    "general_tips": [
+      "Testnets: Avoid mainnet mistakes.",
+      "Update: Follow Ethereum.org.",
+      "Tools: Hardhat, Ganache.",
+      "Soft skills: Security mindset.",
+      "Career: Build on GitHub, Solidity cert."
+    ],
+    "ai_tools": [
+      {
+        "name": "ChatGPT",
+        "description": "For Solidity code, explanations.",
+        "benefits": "Quick debugging.",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+      },
+      {
+        "name": "GitHub Copilot",
+        "description": "AI for contract suggestions.",
+        "benefits": "Speeds development.",
+        "image_link": "https://github.githubassets.com/images/modules/site/copilot/copilot.png"
+      },
+      {
+        "name": "Tabnine",
+        "description": "Code completion for blockchain.",
+        "benefits": "Multi-language support.",
+        "image_link": "https://www.tabnine.com/hs-fs/hubfs/Tabnine%20logo%20new.png"
+      },
+      {
+        "name": "CodeGeeX",
+        "description": "Multilingual code gen.",
+        "benefits": "Smart contract translation.",
+        "image_link": "https://codegeex.ai/assets/images/codegeex-logo.png"
+      },
+      {
+        "name": "Hugging Face",
+        "description": "Models for blockchain analytics.",
+        "benefits": "AI integration in dApps.",
+        "image_link": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
+      },
+      {
+        "name": "Qodo",
+        "description": "AI for code review.",
+        "benefits": "Security checks.",
+        "image_link": "https://qodo.ai/assets/logo.png"
+      }
+    ]
+  },
+  {
+    "domain": "DevOps Engineering",
+    "CardData": "Automate deployments and monitor systems with tools like Docker, Kubernetes, and CI/CD pipelines.",
+    "introduction": "DevOps bridges development and operations for faster, reliable software delivery. It involves automation, CI/CD, and monitoring. Engineers ensure seamless deployments. This roadmap emphasizes pipelines. Learn by automating personal projects—start with simple scripts to build automation mindset.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Learn Linux, scripting, version control.",
+        "key_topics": [
+          {
+            "topic": "OS & Networking",
+            "details": "Linux commands, TCP/IP. Why important: Infrastructure. Pro tip: Bash scripting."
+          },
+          {
+            "topic": "Version Control",
+            "details": "Git advanced. Why important: Collaboration. Pro tip: GitFlow workflow."
+          },
+          {
+            "topic": "Containers",
+            "details": "Docker basics. Why important: Portability. Pro tip: Dockerfile best practices."
+          }
+        ],
+        "projects": "Dockerize a web app.",
+        "tips": "Linux Academy courses."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "CI/CD, orchestration, monitoring.",
+        "key_topics": [
+          {
+            "topic": "CI/CD Tools",
+            "details": "Jenkins, GitHub Actions. Why important: Automation. Pro tip: Pipeline as code."
+          },
+          {
+            "topic": "Orchestration",
+            "details": "Kubernetes basics. Why important: Scaling. Pro tip: Minikube for local."
+          },
+          {
+            "topic": "Monitoring",
+            "details": "Prometheus, Grafana. Why important: Health checks. Pro tip: Alerting setups."
+          }
+        ],
+        "projects": "CI/CD pipeline for app deployment.",
+        "tips": "Practice on AWS free tier."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "IaC, security, cloud-native.",
+        "key_topics": [
+          {
+            "topic": "IaC",
+            "details": "Terraform, Ansible. Why important: Reproducible. Pro tip: Modules for reuse."
+          },
+          {
+            "topic": "DevSecOps",
+            "details": "Security in pipelines. Why important: Secure by design. Pro tip: SAST/DAST tools."
+          },
+          {
+            "topic": "Cloud-Native",
+            "details": "Serverless, microservices. Why important: Modern apps. Pro tip: Istio for service mesh."
+          }
+        ],
+        "projects": "Terraform Kubernetes cluster, secure pipeline.",
+        "tips": "Certify AWS DevOps."
+      }
+    ],
+    "general_tips": [
+      "Automation first: Script repetitive tasks.",
+      "Update: Follow DevOps Days.",
+      "Tools: AWS CLI, Kubernetes.",
+      "Soft skills: Collaboration with devs.",
+      "Career: Contribute to Ansible, freelance setups."
+    ],
+    "ai_tools": [
+      {
+        "name": "Amazon Q Developer",
+        "description": "AI for DevOps code.",
+        "benefits": "Automates scripts.",
+        "image_link": "https://aws.amazon.com/q/images/q-logo.png"
+      },
+      {
+        "name": "Dynatrace",
+        "description": "AI monitoring.",
+        "benefits": "Auto-root cause.",
+        "image_link": "https://www.dynatrace.com/assets/images/dynatrace-logo.png"
+      },
+      {
+        "name": "GitHub Copilot",
+        "description": "Code for pipelines.",
+        "benefits": "Faster IaC.",
+        "image_link": "https://github.githubassets.com/images/modules/site/copilot/copilot.png"
+      },
+      {
+        "name": "ChatGPT",
+        "description": "Troubleshoot configs.",
+        "benefits": "Quick fixes.",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+      },
+      {
+        "name": "Functionize",
+        "description": "AI testing in CI/CD.",
+        "benefits": "Self-healing tests.",
+        "image_link": "https://www.functionize.com/assets/logo.png"
+      },
+      {
+        "name": "Kubiya",
+        "description": "AI DevOps assistant.",
+        "benefits": "Chat-based ops.",
+        "image_link": "https://www.kubiya.ai/assets/logo.png"
+      },
+      {
+        "name": "Aider",
+        "description": "AI coding for DevOps.",
+        "benefits": "Task automation.",
+        "image_link": "https://aider.chat/assets/logo.png"
+      }
+    ]
+  },
+  {
+    "domain": "Product Management",
+    "CardData": "Lead product development by combining user needs, business goals, and technical teams.",
+    "introduction": "Product management oversees product lifecycle from idea to launch. It involves market research, roadmapping, and stakeholder alignment. Managers bridge teams for successful products. This roadmap emphasizes strategy. Learn by managing mock products—use feedback loops to refine visions practically.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Understand product lifecycle, basic tools, market research.",
+        "key_topics": [
+          {
+            "topic": "Product Basics",
+            "details": "MVP, user stories. Why important: Foundation. Pro tip: Prioritize features."
+          },
+          {
+            "topic": "Market Research",
+            "details": "Surveys, competitor analysis. Why important: Validation. Pro tip: Use Google Forms."
+          },
+          {
+            "topic": "Tools",
+            "details": "Jira, Trello. Why important: Tracking. Pro tip: Agile boards."
+          }
+        ],
+        "projects": "Create product roadmap for app idea.",
+        "tips": "Product School free courses."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "Roadmapping, metrics, user feedback.",
+        "key_topics": [
+          {
+            "topic": "Roadmapping",
+            "details": "Prioritization matrices. Why important: Direction. Pro tip: RICE scoring."
+          },
+          {
+            "topic": "Metrics & Analytics",
+            "details": "KPIs, AARRR. Why important: Success measurement. Pro tip: Cohort analysis."
+          },
+          {
+            "topic": "User Feedback",
+            "details": "Interviews, NPS. Why important: Iteration. Pro tip: Hotjar for heatmaps."
+          }
+        ],
+        "projects": "Launch MVP, analyze user data.",
+        "tips": "Read Inspired by Marty Cagan."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "Strategy, leadership, scaling.",
+        "key_topics": [
+          {
+            "topic": "Product Strategy",
+            "details": "Vision, go-to-market. Why important: Long-term. Pro tip: SWOT analysis."
+          },
+          {
+            "topic": "Leadership",
+            "details": "Cross-functional teams. Why important: Execution. Pro tip: Stakeholder management."
+          },
+          {
+            "topic": "Scaling Products",
+            "details": "Growth hacking, internationalization. Why important: Expansion. Pro tip: A/B testing at scale."
+          }
+        ],
+        "projects": "Scale a product simulation, GTM plan.",
+        "tips": "Certify with Product Management Professional."
+      }
+    ],
+    "general_tips": [
+      "User-centric: Always validate assumptions.",
+      "Update: Follow Product Hunt.",
+      "Tools: Notion for docs, Mixpanel for analytics.",
+      "Soft skills: Negotiation, vision communication.",
+      "Career: Internships, LinkedIn networking."
+    ],
+    "ai_tools": [
+      {
+        "name": "Notion AI",
+        "description": "For product notes, roadmaps.",
+        "benefits": "Organizes ideas.",
+        "image_link": "https://www.notion.so/images/logo-ios.png"
+      },
+      {
+        "name": "ChatGPT",
+        "description": "Brainstorm features, user stories.",
+        "benefits": "Rapid ideation.",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+      },
+      {
+        "name": "Gamma",
+        "description": "AI for presentations.",
+        "benefits": "Pitch decks.",
+        "image_link": "https://gamma.app/assets/logo.png"
+      },
+      {
+        "name": "Consensus",
+        "description": "AI research assistant.",
+        "benefits": "Market insights.",
+        "image_link": "https://consensus.app/assets/logo.png"
+      },
+      {
+        "name": "Zoho People",
+        "description": "AI HR for team management.",
+        "benefits": "Stakeholder alignment.",
+        "image_link": "https://www.zoho.com/people/images/zoho-people-logo.png"
+      },
+      {
+        "name": "HubSpot AI",
+        "description": "For customer data analysis.",
+        "benefits": "User feedback processing.",
+        "image_link": "https://www.hubspot.com/hubfs/HubSpot_Logo.png"
+      }
+    ]
+  },
+  {
+    "domain": "Business Analysis",
+    "CardData": "Identify business requirements and propose technology solutions to improve processes.",
+    "introduction": "Business analysis identifies needs and recommends solutions. It involves requirements gathering, process modeling. Analysts bridge business and IT. This roadmap focuses on case studies. Learn by analyzing business processes—document improvements to develop analytical skills.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Learn business concepts, tools, requirements.",
+        "key_topics": [
+          {
+            "topic": "Business Fundamentals",
+            "details": "SWOT, stakeholder analysis. Why important: Context. Pro tip: Use mind maps."
+          },
+          {
+            "topic": "Tools",
+            "details": "Excel, Visio for modeling. Why important: Documentation. Pro tip: BPMN for processes."
+          },
+          {
+            "topic": "Requirements Elicitation",
+            "details": "Interviews, workshops. Why important: Accurate needs. Pro tip: MoSCoW prioritization."
+          }
+        ],
+        "projects": "Analyze a small business process.",
+        "tips": "IIBA entry cert."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "Advanced modeling, data analysis, agile.",
+        "key_topics": [
+          {
+            "topic": "Process Modeling",
+            "details": "UML, use cases. Why important: Visualization. Pro tip: Lucidchart tools."
+          },
+          {
+            "topic": "Data Analysis",
+            "details": "SQL, Excel advanced. Why important: Insights. Pro tip: Pivot tables."
+          },
+          {
+            "topic": "Agile BA",
+            "details": "User stories, backlogs. Why important: Iterative. Pro tip: Jira usage."
+          }
+        ],
+        "projects": "Requirements doc for app.",
+        "tips": "BABOK guide."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "Strategy, change management, leadership.",
+        "key_topics": [
+          {
+            "topic": "Strategic Analysis",
+            "details": "Business cases, ROI. Why important: Justification. Pro tip: Balanced scorecard."
+          },
+          {
+            "topic": "Change Management",
+            "details": "ADKAR model. Why important: Adoption. Pro tip: Stakeholder mapping."
+          },
+          {
+            "topic": "Enterprise Analysis",
+            "details": "Portfolio management. Why important: Alignment. Pro tip: EA frameworks."
+          }
+        ],
+        "projects": "Full business analysis for project.",
+        "tips": "CBAP cert."
+      }
+    ],
+    "general_tips": [
+      "Stakeholder focus: Build relationships.",
+      "Update: Follow BA Times.",
+      "Tools: Lucidchart, Microsoft Visio.",
+      "Soft skills: Elicitation techniques.",
+      "Career: Network on LinkedIn, entry roles."
+    ],
+    "ai_tools": [
+      {
+        "name": "ChatGPT",
+        "description": "For requirement drafting.",
+        "benefits": "Idea generation.",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+      },
+      {
+        "name": "Notion AI",
+        "description": "Organize analysis notes.",
+        "benefits": "Summaries.",
+        "image_link": "https://www.notion.so/images/logo-ios.png"
+      },
+      {
+        "name": "Grammarly",
+        "description": "AI for document polishing.",
+        "benefits": "Clear reports.",
+        "image_link": "https://www.grammarly.com/assets/images/logo.png"
+      },
+      {
+        "name": "Jasper AI",
+        "description": "Content for business cases.",
+        "benefits": "Professional writing.",
+        "image_link": "https://www.jasper.ai/hubfs/Imported%20sitepage%20images/Logo%20-%20Color.svg"
+      },
+      {
+        "name": "Motion",
+        "description": "Task planning for analysis.",
+        "benefits": "Prioritization.",
+        "image_link": "https://www.usemotion.com/images/logo.png"
+      },
+      {
+        "name": "Consensus",
+        "description": "AI research for market analysis.",
+        "benefits": "Data insights.",
+        "image_link": "https://consensus.app/assets/logo.png"
+      }
+    ]
+  },
+  {
+    "domain": "Network Engineering",
+    "CardData": "Design and maintain computer networks ensuring reliable and secure communication.",
+    "introduction": "Network engineering designs and manages communication networks. It includes routing, switching, and security. Engineers ensure connectivity and performance. This roadmap emphasizes labs. Learn by building networks—use simulators like Packet Tracer to test configurations practically.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Basics of networking, hardware, protocols.",
+        "key_topics": [
+          {
+            "topic": "Network Basics",
+            "details": "OSI model, IP addressing. Why important: Foundation. Pro tip: Subnetting practice."
+          },
+          {
+            "topic": "Hardware",
+            "details": "Routers, switches. Why important: Physical setup. Pro tip: Cisco basics."
+          },
+          {
+            "topic": "Protocols",
+            "details": "TCP/UDP, HTTP. Why important: Communication. Pro tip: Wireshark captures."
+          }
+        ],
+        "projects": "Home LAN setup.",
+        "tips": "CCNA intro."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "Routing, switching, wireless.",
+        "key_topics": [
+          {
+            "topic": "Routing",
+            "details": "OSPF, BGP. Why important: Traffic direction. Pro tip: Dynamic routing sims."
+          },
+          {
+            "topic": "Switching",
+            "details": "VLANs, STP. Why important: Segmentation. Pro tip: EtherChannel for redundancy."
+          },
+          {
+            "topic": "Wireless",
+            "details": "Wi-Fi standards, security. Why important: Mobility. Pro tip: WPA3 implementation."
+          }
+        ],
+        "projects": "Multi-VLAN network.",
+        "tips": "GNS3 labs."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "SDN, cloud networking, automation.",
+        "key_topics": [
+          {
+            "topic": "SDN",
+            "details": "OpenFlow, controllers. Why important: Programmability. Pro tip: Mininet sims."
+          },
+          {
+            "topic": "Cloud Networking",
+            "details": "AWS VPC, Azure VNet. Why important: Hybrid. Pro tip: VPN connections."
+          },
+          {
+            "topic": "Automation",
+            "details": "Ansible, Python. Why important: Efficiency. Pro tip: Netmiko for devices."
+          }
+        ],
+        "projects": "Automated network config.",
+        "tips": "CCNP cert."
+      }
+    ],
+    "general_tips": [
+      "Labs: Simulate before real hardware.",
+      "Update: Follow Network World.",
+      "Tools: Packet Tracer, Wireshark.",
+      "Soft skills: Troubleshooting logic.",
+      "Career: Cisco certs, entry support roles."
+    ],
+    "ai_tools": [
+      {
+        "name": "ChatGPT",
+        "description": "For config troubleshooting.",
+        "benefits": "Quick protocol explanations.",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+      },
+      {
+        "name": "Wireshark AI",
+        "description": "AI packet analysis (plugins).",
+        "benefits": "Anomaly detection.",
+        "image_link": "https://www.wireshark.org/assets/images/wireshark-logo.png"
+      },
+      {
+        "name": "NetBrain",
+        "description": "AI network mapping.",
+        "benefits": "Visual troubleshooting.",
+        "image_link": "https://www.netbraintech.com/wp-content/uploads/2019/10/netbrain-logo.png"
+      },
+      {
+        "name": "Cisco AI",
+        "description": "AI for network assurance.",
+        "benefits": "Predictive maintenance.",
+        "image_link": "https://www.cisco.com/assets/images/cisco-logo.png"
+      },
+      {
+        "name": "SolarWinds",
+        "description": "AI monitoring.",
+        "benefits": "Alerting.",
+        "image_link": "https://www.solarwinds.com/-/media/solarwinds/swd/images/logos/solarwinds-logo.ashx"
+      },
+      {
+        "name": "Auvik",
+        "description": "AI network management.",
+        "benefits": "Automated discovery.",
+        "image_link": "https://www.auvik.com/wp-content/uploads/2019/10/auvik-logo.png"
+      }
+    ]
+  },
+  {
+    "domain": "Database Administration",
+    "CardData": "Manage databases with SQL, NoSQL, and optimize for performance and reliability.",
+    "introduction": "Database administration manages data storage, security, and performance. DBAs optimize queries and ensure availability. This roadmap focuses on setups. Learn by building databases—tune for performance to understand indexing and backups.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "SQL basics, relational models, installation.",
+        "key_topics": [
+          {
+            "topic": "SQL Language",
+            "details": "CRUD, joins. Why important: Data ops. Pro tip: Normalization forms."
+          },
+          {
+            "topic": "DBMS",
+            "details": "MySQL, PostgreSQL install. Why important: Management. Pro tip: pgAdmin tool."
+          },
+          {
+            "topic": "Data Modeling",
+            "details": "ER diagrams. Why important: Structure. Pro tip: Use Lucidchart."
+          }
+        ],
+        "projects": "Simple e-commerce DB.",
+        "tips": "SQLZoo practice."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "Performance tuning, backups, security.",
+        "key_topics": [
+          {
+            "topic": "Query Optimization",
+            "details": "Indexes, EXPLAIN. Why important: Speed. Pro tip: Avoid SELECT *."
+          },
+          {
+            "topic": "Backup & Recovery",
+            "details": "Dumps, replication. Why important: Data loss prevention. Pro tip: Point-in-time recovery."
+          },
+          {
+            "topic": "Security",
+            "details": "Users, encryption. Why important: Protection. Pro tip: Role-based access."
+          }
+        ],
+        "projects": "Optimized DB with backups.",
+        "tips": "Oracle MySQL cert."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "NoSQL, cloud DBs, high availability.",
+        "key_topics": [
+          {
+            "topic": "NoSQL Databases",
+            "details": "MongoDB, Cassandra. Why important: Scalability. Pro tip: Sharding."
+          },
+          {
+            "topic": "Cloud Databases",
+            "details": "RDS, DynamoDB. Why important: Managed services. Pro tip: Auto-scaling."
+          },
+          {
+            "topic": "High Availability",
+            "details": "Clustering, failover. Why important: Uptime. Pro tip: Galera cluster."
+          }
+        ],
+        "projects": "Hybrid SQL/NoSQL system.",
+        "tips": "AWS DBA cert."
+      }
+    ],
+    "general_tips": [
+      "Query practice: Optimize real data.",
+      "Update: Follow Percona blog.",
+      "Tools: MySQL Workbench, Mongo Compass.",
+      "Soft skills: Data governance.",
+      "Career: DBA roles, Oracle cert."
+    ],
+    "ai_tools": [
+      {
+        "name": "ChatGPT",
+        "description": "SQL query generation.",
+        "benefits": "Complex joins.",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+      },
+      {
+        "name": "Pieces",
+        "description": "AI for DB scripts.",
+        "benefits": "Code management.",
+        "image_link": "https://pieces.app/assets/logo.png"
+      },
+      {
+        "name": "DataRobot",
+        "description": "AI for DB analytics.",
+        "benefits": "Predictive maintenance.",
+        "image_link": "https://www.datarobot.com/assets/images/datarobot-logo.png"
+      },
+      {
+        "name": "H2O.ai",
+        "description": "Auto-ML on DB data.",
+        "benefits": "Insights.",
+        "image_link": "https://www.h2o.ai/wp-content/uploads/2019/07/h2o-logo.png"
+      },
+      {
+        "name": "Oracle AI",
+        "description": "AI in Oracle DB.",
+        "benefits": "Auto-tuning.",
+        "image_link": "https://www.oracle.com/assets/oracle-logo-091603-2x.png"
+      },
+      {
+        "name": "Percona XtraDB",
+        "description": "AI-enhanced MySQL.",
+        "benefits": "Performance.",
+        "image_link": "https://www.percona.com/sites/default/files/percona-logo.png"
+      }
+    ]
+  },
+  {
+    "domain": "Embedded Systems Engineering",
+    "CardData": "Program hardware devices using C/C++ and real-time operating systems.",
+    "introduction": "Embedded systems engineering designs software for hardware with constraints. It involves microcontrollers, RTOS, and interfacing. Engineers optimize for power and performance. This roadmap emphasizes hardware projects. Learn by building devices—prototype on Arduino to understand real-time constraints.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Electronics basics, C programming, microcontrollers.",
+        "key_topics": [
+          {
+            "topic": "Electronics",
+            "details": "Circuits, sensors. Why important: Hardware interface. Pro tip: Ohm's law."
+          },
+          {
+            "topic": "Programming",
+            "details": "C/C++ for embedded. Why important: Low-level control. Pro tip: Pointers mastery."
+          },
+          {
+            "topic": "Microcontrollers",
+            "details": "Arduino, PIC. Why important: Core platform. Pro tip: GPIO usage."
+          }
+        ],
+        "projects": "LED blinker, sensor reader.",
+        "tips": "Arduino tutorials."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "RTOS, interfacing, debugging.",
+        "key_topics": [
+          {
+            "topic": "RTOS",
+            "details": "FreeRTOS basics. Why important: Multitasking. Pro tip: Task scheduling."
+          },
+          {
+            "topic": "Interfacing",
+            "details": "I2C, SPI, UART. Why important: Communication. Pro tip: Interrupt handling."
+          },
+          {
+            "topic": "Debugging",
+            "details": "JTAG, oscilloscopes. Why important: Bug fixing. Pro tip: Logic analyzers."
+          }
+        ],
+        "projects": "IoT device with Wi-Fi.",
+        "tips": "ESP32 boards."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "Low-power design, security, FPGA.",
+        "key_topics": [
+          {
+            "topic": "Power Optimization",
+            "details": "Sleep modes, efficient code. Why important: Battery life. Pro tip: Energy profiling."
+          },
+          {
+            "topic": "Security",
+            "details": "Encryption, secure boot. Why important: Protection. Pro tip: TPM modules."
+          },
+          {
+            "topic": "Advanced Hardware",
+            "details": "FPGA, ARM cores. Why important: Performance. Pro tip: VHDL basics."
+          }
+        ],
+        "projects": "Wearable device, secure sensor network.",
+        "tips": "STM32 advanced."
+      }
+    ],
+    "general_tips": [
+      "Hardware labs: Prototype safely.",
+      "Update: Follow Embedded.com.",
+      "Tools: Oscilloscope, Keil IDE.",
+      "Soft skills: Hardware-software integration.",
+      "Career: Arduino projects, certs like ARM."
+    ],
+    "ai_tools": [
+      {
+        "name": "ChatGPT",
+        "description": "For embedded code, explanations.",
+        "benefits": "Debugging help.",
+        "image_link": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"
+      },
+      {
+        "name": "Replit",
+        "description": "AI for embedded scripting.",
+        "benefits": "Online collab.",
+        "image_link": "https://replit.com/public/images/logo.png"
+      },
+      {
+        "name": "IntelliCode",
+        "description": "AI code suggestions in VS.",
+        "benefits": "C++ efficiency.",
+        "image_link": "https://visualstudio.microsoft.com/wp-content/uploads/2019/03/intellicode-logo.png"
+      },
+      {
+        "name": "Heuristica",
+        "description": "AI for hardware design.",
+        "benefits": "Circuit optimization.",
+        "image_link": "https://heuristica.ai/assets/logo.png"
+      },
+      {
+        "name": "Perplexity",
+        "description": "AI search for embedded docs.",
+        "benefits": "Quick research.",
+        "image_link": "https://www.perplexity.ai/assets/logo.png"
+      },
+      {
+        "name": "Explainpaper",
+        "description": "AI for paper summaries.",
+        "benefits": "Latest research.",
+        "image_link": "https://explainpaper.com/assets/logo.png"
+      },
+      {
+        "name": "Codeium",
+        "description": "AI code gen.",
+        "benefits": "Embedded functions.",
+        "image_link": "https://codeium.com/images/logo.png"
+      }
+    ]
+  },
+  {
+    "domain": "Quality Assurance & Testing",
+    "CardData": "Ensure software quality through manual and automated testing techniques.",
+    "introduction": "Quality assurance ensures software meets standards through testing. It includes manual/automated tests, bug tracking. Testers prevent defects. This roadmap emphasizes test cases. Learn by testing open-source—automate scripts to build robust skills.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Testing basics, types, tools.",
+        "key_topics": [
+          {
+            "topic": "Testing Concepts",
+            "details": "Manual testing, bug lifecycle. Why important: Foundation. Pro tip: ISTQB syllabus."
+          },
+          {
+            "topic": "Tools",
+            "details": "Jira for tracking, Postman for APIs. Why important: Efficiency. Pro tip: API testing basics."
+          },
+          {
+            "topic": "Test Cases",
+            "details": "Writing, execution. Why important: Coverage. Pro tip: Boundary value analysis."
+          }
+        ],
+        "projects": "Test a web app manually.",
+        "tips": "Udemy QA courses."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "Automation, performance testing.",
+        "key_topics": [
+          {
+            "topic": "Automation Frameworks",
+            "details": "Selenium, Appium. Why important: Repeatability. Pro tip: Page Object Model."
+          },
+          {
+            "topic": "Performance Testing",
+            "details": "JMeter, load testing. Why important: Scalability. Pro tip: Response time metrics."
+          },
+          {
+            "topic": "Agile Testing",
+            "details": "Shift-left, continuous testing. Why important: Speed. Pro tip: Integrate with CI."
+          }
+        ],
+        "projects": "Automate login tests.",
+        "tips": "Practice on Sauce Labs."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "Security testing, AI in QA, leadership.",
+        "key_topics": [
+          {
+            "topic": "Security Testing",
+            "details": "OWASP, penetration. Why important: Vulnerabilities. Pro tip: Burp Suite."
+          },
+          {
+            "topic": "AI/ML Testing",
+            "details": "Model validation. Why important: Emerging. Pro tip: Bias detection."
+          },
+          {
+            "topic": "QA Management",
+            "details": "Test strategy, teams. Why important: Oversight. Pro tip: Metrics like defect density."
+          }
+        ],
+        "projects": "Full test suite for app.",
+        "tips": "ISTQB Advanced cert."
+      }
+    ],
+    "general_tips": [
+      "Test early: Shift-left approach.",
+      "Update: Follow Ministry of Testing.",
+      "Tools: Selenium Grid, JMeter.",
+      "Soft skills: Detail-oriented reporting.",
+      "Career: Bug bounties, QA roles."
+    ],
+    "ai_tools": [
+      {
+        "name": "Testim",
+        "description": "AI self-healing tests.",
+        "benefits": "Reduces flakiness.",
+        "image_link": "https://www.testim.io/assets/logo.png"
+      },
+      {
+        "name": "Mabl",
+        "description": "AI low-code automation.",
+        "benefits": "Intelligent tests.",
+        "image_link": "https://www.mabl.com/assets/logo.png"
+      },
+      {
+        "name": "Applitools",
+        "description": "AI visual testing.",
+        "benefits": "UI consistency.",
+        "image_link": "https://applitools.com/wp-content/uploads/2020/08/applitools-logo.png"
+      },
+      {
+        "name": "Functionize",
+        "description": "AI adaptive testing.",
+        "benefits": "Self-healing.",
+        "image_link": "https://www.functionize.com/assets/logo.png"
+      },
+      {
+        "name": "QA Wolf",
+        "description": "AI end-to-end testing.",
+        "benefits": "Automated coverage.",
+        "image_link": "https://www.qawolf.com/assets/logo.png"
+      },
+      {
+        "name": "Bug0",
+        "description": "AI bug hunting.",
+        "benefits": "Proactive detection.",
+        "image_link": "https://bug0.io/assets/logo.png"
+      },
+      {
+        "name": "Autify",
+        "description": "AI no-code testing.",
+        "benefits": "Cross-browser.",
+        "image_link": "https://autify.com/assets/logo.png"
+      },
+      {
+        "name": "Virtuoso",
+        "description": "AI exploratory testing.",
+        "benefits": "Smart execution.",
+        "image_link": "https://www.virtuoso.qa/assets/logo.png"
+      },
+      {
+        "name": "Eggplant",
+        "description": "AI digital automation.",
+        "benefits": "Image-based testing.",
+        "image_link": "https://www.eggplantsoftware.com/assets/logo.png"
+      }
+    ]
+  },
+
+  {
+    "domain": "Graphic Designing",
+    "CardData": "Create visual content with Adobe Creative Suite and design principles.",
+    "introduction": "Graphic design creates visual content to communicate messages. It includes typography, imagery, and layout. Designers work on branding, ads. This roadmap emphasizes portfolios. Learn by designing logos—iterate based on critiques to develop style and versatility.",
+    "roadmap": [
+      {
+        "stage": "Fundamentals (Beginner Level)",
+        "description": "Principles, tools, color theory.",
+        "key_topics": [
+          {
+            "topic": "Design Principles",
+            "details": "Balance, contrast. Why important: Effective visuals. Pro tip: Rule of thirds."
+          },
+          {
+            "topic": "Tools",
+            "details": "Photoshop, Illustrator. Why important: Creation. Pro tip: Keyboard shortcuts."
+          },
+          {
+            "topic": "Color & Typography",
+            "details": "Palettes, fonts. Why important: Mood/Readability. Pro tip: Adobe Color."
+          }
+        ],
+        "projects": "Logo design, poster.",
+        "tips": "Canva for starters."
+      },
+      {
+        "stage": "Intermediate Level",
+        "description": "Vector graphics, branding, digital design.",
+        "key_topics": [
+          {
+            "topic": "Vector Illustration",
+            "details": "Paths, shapes. Why important: Scalability. Pro tip: Pen tool mastery."
+          },
+          {
+            "topic": "Branding",
+            "details": "Identity systems. Why important: Consistency. Pro tip: Mood boards."
+          },
+          {
+            "topic": "Digital Design",
+            "details": "Web/social graphics. Why important: Online presence. Pro tip: Responsive assets."
+          }
+        ],
+        "projects": "Brand guideline book.",
+        "tips": "Behance critiques."
+      },
+      {
+        "stage": "Advanced Level",
+        "description": "Motion graphics, 3D, portfolio building.",
+        "key_topics": [
+          {
+            "topic": "Motion Design",
+            "details": "After Effects basics. Why important: Dynamic content. Pro tip: Keyframing."
+          },
+          {
+            "topic": "3D Design",
+            "details": "Blender intro. Why important: Modern visuals. Pro tip: Texturing."
+          },
+          {
+            "topic": "Portfolio & Freelance",
+            "details": "Showcasing work. Why important: Opportunities. Pro tip: Personal website."
+          }
+        ],
+        "projects": "Animated logo, 3D mockup.",
+        "tips": "Adobe certs."
+      }
+    ],
+    "general_tips": [
+      "Critiques: Seek feedback regularly.",
+      "Update: Follow AIGA.",
+      "Tools: Adobe Suite, Affinity.",
+      "Soft skills: Client communication.",
+      "Career: Dribbble portfolio, freelance."
+    ],
+    "ai_tools": [
+      {
+        "name": "Adobe Firefly",
+        "description": "AI image gen.",
+        "benefits": "Custom elements.",
+        "image_link": "https://www.adobe.com/products/firefly/assets/images/firefly-logo.svg"
+      },
+      {
+        "name": "Canva Magic Studio",
+        "description": "AI design aids.",
+        "benefits": "Quick layouts.",
+        "image_link": "https://www.canva.com/assets/images/canva-logo.png"
+      },
+      {
+        "name": "Midjourney",
+        "description": "AI art.",
+        "benefits": "Inspiration.",
+        "image_link": "https://www.midjourney.com/assets/logo.png"
+      },
+      {
+        "name": "DALL-E",
+        "description": "OpenAI images.",
+        "benefits": "Unique visuals.",
+        "image_link": "https://openai.com/assets/images/dall-e-logo.png"
+      },
+      {
+        "name": "Khroma",
+        "description": "AI colors.",
+        "benefits": "Palettes.",
+        "image_link": "https://www.khroma.co/assets/images/khroma-logo.png"
+      },
+      {
+        "name": "Designs.ai",
+        "description": "AI graphic tools.",
+        "benefits": "Automated designs.",
+        "image_link": "https://designs.ai/assets/images/logo.png"
+      },
+      {
+        "name": "Let's Enhance",
+        "description": "AI upscaling.",
+        "benefits": "Image quality.",
+        "image_link": "https://letsenhance.io/assets/logo.png"
+      },
+      {
+        "name": "Remove.bg",
+        "description": "AI background removal.",
+        "benefits": "Clean edits.",
+        "image_link": "https://www.remove.bg/assets/logo.png"
+      }
+    ]
+  }
+]
