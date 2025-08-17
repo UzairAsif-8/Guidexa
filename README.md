@@ -96,8 +96,8 @@ However, I humbly request that you do not copy this project exactly as it is wit
 ## 📬 Contact
 
 **Muhammad Uzair Asif**  
-Email: (mailto:uzair.asif.dev@gmail.com)  
-Company Email: (mailto:contact.axiolink@gmail.com)  
+Email: (uzair.asif.dev@gmail.com)  
+Company Email: (contact.axiolink@gmail.com)  
 GitHub: [https://github.com/UzairAsif-8](https://github.com/UzairAsif-8)
 
 ## Author
