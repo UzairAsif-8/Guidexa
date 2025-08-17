@@ -1,11 +1,11 @@
 import React from "react";
-import logo from "../../assets/guidexaPNG";
+import logo from "../../assets/GuidexaPNG.png";
 function AInavbar() {
   return (
     <>
       <div className="flex justify-evenly  mt-3">
         <div className="flex ">
-          <img className="h-10 w-auto" src="\logo" alt="Guidexa" />
+          <img className="h-10 w-auto" src={logo} alt="Guidexa" />
           <h1 className="text-4xl  ml-1  font-medium font-sans">AI</h1>
         </div>
         <div className="  text-center bg-gradient-to-b pt-2 hidden lg:block md:block xl:block  from-blue-400 to-blue-700 text-white px-6 rounded-full hover:cursor-pointer hover:scale-103">
