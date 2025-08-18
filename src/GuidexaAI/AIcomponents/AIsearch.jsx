@@ -1,10 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import { IoIosSend } from "react-icons/io";
 import { GoogleGenerativeAI } from "@google/generative-ai";
-
+const ai = new GoogleGenerativeAI(import.meta.env.VITE_GOOGLE_AI_KEY);
 function AIsearch() {
-  const ai = new GoogleGenerativeAI(import.meta.env.VITE_GOOGLE_AI_KEY);
-
   const [prompt, setprompt] = useState("");
   const [chatHistory, setchatHistory] = useState([]); // user messages
   const [responses, responseHistory] = useState([]); // bot messages
@@ -22,7 +20,7 @@ function AIsearch() {
       aiText = result.response.text();
     } catch {
       alert(
-        "Kindly reload the page as our chatbot is experiencing some technical issues!"
+        "Kindly reload the page as our chatbot is experiencing some technical issues! Or Try again later..."
       );
     }
 
