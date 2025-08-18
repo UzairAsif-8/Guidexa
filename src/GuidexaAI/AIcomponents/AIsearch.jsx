@@ -22,7 +22,7 @@ function AIsearch() {
       aiText = result.response.text();
     } catch {
       alert(
-        "Our AI Chatbot experiencing some technical issues and currently unavailable. We appreciate your Pataience!"
+        "Kindly reload the page as our chatbot is experiencing some technical issues!"
       );
     }
 
