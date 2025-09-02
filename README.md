@@ -33,7 +33,7 @@
 
 ## 🔗 Demo
 
-Try Guidexa online: [Live Demo](#) _(replace with actual link once deployed)_
+Try Guidexa online: [Live Demo](https://guidexa-app.web.app/) _(replace with actual link once deployed)_
 
 ---
 
